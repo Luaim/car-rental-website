@@ -1,0 +1,977 @@
+.main .rectangle-39 {
+    box-shadow: 0px 4px 4px 0px #701212;
+    filter: blur(7.5px);
+    background: url('../assets/images/rectangle_39.jpeg') 50% / cover no-repeat;
+    position: absolute;
+    left: 8px;
+    right: 9px;
+    bottom: 929px;
+    height: 821px;
+  }
+  .main .home-1 {
+    margin: 4px 17px 7px 0;
+    display: inline-block;
+    width: 75px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .vehicles-1 {
+    margin-right: 17px;
+    width: 114px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .about-1 {
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .container-7 {
+    margin: 4px 0 7px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 238.2px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .main .faq-2 {
+    margin: 4px 0 7px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .contact-1 {
+    margin: 4px 0 7px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .sign-up-3 {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .sign-up-1 {
+    overflow-wrap: break-word;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .button-1 {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: #73BDF7;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    translate: -50% 0;
+    display: flex;
+    padding: 12.5px 0 12.5px 8.6px;
+    width: 158px;
+    box-sizing: border-box;
+  }
+  .main .button-5 {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: #73BDF7;
+    position: relative;
+    display: flex;
+    padding: 12.5px 0 12.5px 8.6px;
+    width: 158px;
+    box-sizing: border-box;
+  }
+  .main .container-23 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 859px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .main .home {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #DE0000;
+  }
+  .main .vehicles {
+    position: absolute;
+    left: 131px;
+    top: 4px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .about {
+    position: absolute;
+    left: 286px;
+    top: 4px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .faq-1 {
+    position: absolute;
+    top: 4px;
+    right: 391.8px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .contact {
+    position: absolute;
+    top: 4px;
+    right: 210.3px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .main .rectangle-44 {
+    border-radius: 50px;
+    background: #DE0000;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    width: 49px;
+    height: 5px;
+  }
+  .main .group-19 {
+    border-radius: 10px;
+    position: relative;
+    margin: 0 39px 32px 39px;
+    display: flex;
+    align-self: flex-end;
+    width: 859px;
+    box-sizing: border-box;
+  }
+  .main .find-the-right-car-for-you {
+    margin-bottom: 22px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  .main .discover-rental-car-rental-option-in-malaysia-with-rent-acar-select-from-arange-of-car-option-and-local-special {
+    margin: 0 30.7px 38px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .main .sign-up {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .button {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: #D72626;
+    margin-right: 439.3px;
+    display: flex;
+    padding: 18px 0 18px 6.6px;
+    width: 230px;
+    box-sizing: border-box;
+  }
+  .main .container-1 {
+    border-radius: 5px;
+    background: #FD8787;
+    position: relative;
+    margin-bottom: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0 152px 0;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .main .browse-our-vehicles {
+    margin: 0 0 3px 44.2px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+  .main .rectangle-61 {
+    border-radius: 50px;
+    background: #DE0000;
+    margin: 0 8px 31px 0;
+    width: 356px;
+    height: 12px;
+  }
+  .main .explore-the-different-variety-of-cars-that-doos-got-to-offer {
+    margin: 0 0 53px 65px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  .main .rectangle-32 {
+    border-radius: 10px;
+    background: #D9D9D9;
+    margin-right: 34px;
+    width: 400px;
+    height: 500px;
+  }
+  .main .rectangle-31 {
+    border-radius: 10px;
+    background: #D9D9D9;
+    width: 400px;
+    height: 500px;
+  }
+  .main .container {
+    margin: 0 112px 47px 112px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: 834px;
+    box-sizing: border-box;
+  }
+  .main .browse-cars {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .button-2 {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: #D72626;
+    margin: 0 0 113px 14px;
+    display: flex;
+    padding: 22.5px 0 22.5px 8px;
+    width: 276px;
+    box-sizing: border-box;
+  }
+  .main .invest-your-car {
+    margin-right: 58.3px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+  .main .rectangle-60 {
+    border-radius: 50px;
+    background: #DE0000;
+    margin: 0 86px 156px 0;
+    width: 278px;
+    height: 12px;
+  }
+  .main .let-your-car-earn-for-you {
+    margin: 0 0 1188px 56.7px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1;
+    color: #D72626;
+  }
+  .main .supported-by {
+    margin-right: 15px;
+    width: 146px;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .more-links {
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .contact-info {
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .container-26 {
+    margin: 0 0 23px 329.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 641.1px;
+    box-sizing: border-box;
+  }
+  .main .in-god-we-trust-because-im-the-king-of-frica-ergknrgin-wqegn-pwngpngpnpi-n-4-ni-3 {
+    margin-bottom: 15px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+  }
+  .main .vector-15 {
+    width: 27px;
+    height: 21.7px;
+  }
+  .main .teenyiconstwitter-solid {
+    display: flex;
+    width: 27px;
+    height: 25px;
+    box-sizing: border-box;
+  }
+  .main .group-3 {
+    border-radius: 5px;
+    background: #FFFFFF;
+    position: relative;
+    margin-right: 27px;
+    display: flex;
+    padding: 8.7px 4px 7.7px 5px;
+    width: 36px;
+    height: 38px;
+    box-sizing: border-box;
+  }
+  .main .vector-13 {
+    width: 20px;
+    height: 20px;
+  }
+  .main .mdiinstagram {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .main .group-2 {
+    border-radius: 5px;
+    background: #FFFFFF;
+    position: relative;
+    margin-right: 25px;
+    display: flex;
+    padding: 9px 8px;
+    width: 36px;
+    height: 38px;
+    box-sizing: border-box;
+  }
+  .main .vector-14 {
+    width: 26px;
+    height: 26px;
+  }
+  .main .bifacebook {
+    display: flex;
+    width: 26px;
+    height: 26px;
+    box-sizing: border-box;
+  }
+  .main .group-1 {
+    border-radius: 5px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    padding: 5px 4px 7px 6px;
+    width: 36px;
+    height: 38px;
+    box-sizing: border-box;
+  }
+  .main .container-19 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: 160px;
+    box-sizing: border-box;
+  }
+  .main .container-22 {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .main .cyberview-logo-rgb {
+    background: url('../assets/images/cyberview_logo_rgb.png');
+    margin-bottom: 9px;
+    width: 160px;
+    height: 101px;
+  }
+  .main .contact-us {
+    margin-bottom: 8px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .faq {
+    margin: 18px 0.7px 0 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .vector-1 {
+    margin-bottom: 18px;
+    width: 30px;
+    height: 30px;
+  }
+  .main .container-3 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .main .container-6 {
+    margin: 8px 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .main .vector-3 {
+    width: 20px;
+    height: 16px;
+  }
+  .main .material-symbolsmail {
+    margin: 0 0.8px 34.2px 0.6px;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .main .vector-2 {
+    width: 21.3px;
+    height: 21.2px;
+  }
+  .main .iconoirphone-solid {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+  }
+  .main .container-11 {
+    margin: 4px 26.2px 7.6px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 21.3px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .main .hellodoos-my {
+    margin: 0 0.1px 23px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .container {
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .container-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .main .container-10 {
+    margin: 8px 0 19px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .main .container-16 {
+    margin-right: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1194.3px;
+    box-sizing: border-box;
+  }
+  .main .mdec-logo {
+    background: url('../assets/images/mdec_logo.png') 50% / cover no-repeat;
+    margin: 0 49px 37px 0;
+    width: 257px;
+    height: 56px;
+  }
+  .main .investors {
+    margin-bottom: 23px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .tc {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .container-15 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .main .container-17 {
+    margin-bottom: 42px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .main .level-1-block-2330-century-square-jalan-usahawan-off-persiaran-multimedia-cyberjaya-63000-selangor-malaysia {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .main .container-25 {
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 831.3px;
+    box-sizing: border-box;
+  }
+  .main .made-by-luai {
+    margin: 0 12.3px 2.7px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .vector {
+    margin: 3px 13px 4.7px 0;
+    width: 25px;
+    height: 25px;
+  }
+  .main .ebrahim {
+    margin-top: 2.7px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+  }
+  .main .group-7 {
+    margin-right: 12.5px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .main .vector-4 {
+    margin: 3px 0 4.7px 0;
+    width: 25px;
+    height: 25px;
+  }
+  .main .group-11 {
+    margin-right: 6.3px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .main .container-8 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1259.3px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .main .line-1 {
+    background: #FFFFFF;
+    position: absolute;
+    left: 129px;
+    bottom: 55px;
+    width: 1137px;
+    height: 0px;
+  }
+  .main .group-10 {
+    background: #DEDEDE;
+    position: relative;
+    display: flex;
+    padding: 41px 80.7px 6.3px 100px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .main .container-4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .main .pngwing-com-1 {
+    background: url('../assets/images/pngwing_com_1.png');
+    position: absolute;
+    top: 327px;
+    right: -42px;
+    width: 700px;
+    height: 330px;
+  }
+  .main .location {
+    margin: 0 12.5px 8px 0;
+    display: inline-block;
+    width: 108px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  .main .pickup-date {
+    margin: 4px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  .main .return-date {
+    margin-top: 8px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  .main .container-18 {
+    margin-bottom: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 746.5px;
+    box-sizing: border-box;
+  }
+  .main .ex-kuala-lumpur {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .main .container-13 {
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.3);
+    position: relative;
+    padding: 16px 11px;
+    width: 236px;
+    box-sizing: border-box;
+  }
+  .main .select-date {
+    margin-right: 10px;
+    width: 113px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .main .vector-6 {
+    width: 15px;
+    height: 8.6px;
+  }
+  .main .mingcutedown-line-1 {
+    margin: 7.4px 0 4px 0;
+    display: flex;
+    width: 27px;
+    height: 27px;
+    box-sizing: border-box;
+  }
+  .main .container-21 {
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.3);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 15px 16px 12px;
+    width: 236px;
+    box-sizing: border-box;
+  }
+  .main .select-date-1 {
+    margin-right: 10px;
+    width: 113px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .main .vector-5 {
+    width: 15px;
+    height: 8.6px;
+  }
+  .main .mingcutedown-line {
+    margin: 7.4px 0 4px 0;
+    display: flex;
+    width: 27px;
+    height: 27px;
+    box-sizing: border-box;
+  }
+  .main .container-24 {
+    border-radius: 5px;
+    background: rgba(217, 217, 217, 0.3);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 16px 16px 18px;
+    width: 236px;
+    box-sizing: border-box;
+  }
+  .main .container-12 {
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 834px;
+    box-sizing: border-box;
+  }
+  .main .sign-up-2 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .button-4 {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: #D72626;
+    margin-right: 20px;
+    display: flex;
+    align-self: center;
+    padding: 18px 27.3px 18px 0;
+    width: 230px;
+    box-sizing: border-box;
+  }
+  .main .container-2 {
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25), -1px -5px 6px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px solid #CECECE;
+    background: #FFFFFF;
+    position: absolute;
+    top: 587px;
+    right: 230px;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 53px 22px 63px;
+    box-sizing: border-box;
+  }
+  .main .earn-passive-income-by-renting-out-your-vehicle-with-doos-we-take-care-of-everything-while-you-enjoy-the-rewards {
+    position: absolute;
+    right: 255.7px;
+    bottom: 1482px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .vector-7 {
+    margin: 14px 0 13.5px 0;
+    width: 77.5px;
+    height: 52.5px;
+  }
+  .main .group {
+    width: 60px;
+    height: 66.7px;
+  }
+  .main .hugeiconsmoney-bag-02 {
+    margin: 1.7px 0 11.7px 0;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+  }
+  .main .carboncheckmark-outline {
+    width: 80px;
+    height: 80px;
+  }
+  .main .vector-12 {
+    width: 70px;
+    height: 50px;
+  }
+  .main .phspeedometer {
+    margin: 15.5px 0 14.5px 0;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+  }
+  .main .container-9 {
+    margin: 0 23px 17px 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 878px;
+    box-sizing: border-box;
+  }
+  .main .no-hassle {
+    margin: 0 12.5px 5px 0;
+    display: inline-block;
+    width: 126px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .maximized-earning {
+    margin: 4px 0 1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .insurance {
+    margin-top: 5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .flexible-plans {
+    margin: 4px 0 1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .container-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 956.3px;
+    box-sizing: border-box;
+  }
+  .main .container-20 {
+    border-radius: 30px;
+    background: rgba(43, 45, 66, 0.75);
+    position: absolute;
+    right: 150px;
+    bottom: 1119px;
+    display: flex;
+    flex-direction: column;
+    padding: 47px 85.7px 40px 66px;
+    box-sizing: border-box;
+  }
+  .main .invest-now {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .main .button-3 {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: #D72626;
+    position: absolute;
+    right: 575px;
+    bottom: 1002px;
+    display: flex;
+    padding: 22.5px 0 22.5px 8.8px;
+    width: 276px;
+    box-sizing: border-box;
+  }
+  .main {
+    background: #FFFFFF;
+    display: flex;
+    padding-top: 35px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  

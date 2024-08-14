@@ -1,0 +1,873 @@
+.invest-form .doos-removebg-preview-1 {
+    background: url('../assets/images/doos_removebg_preview_1.png') 50% / cover no-repeat;
+    width: 147px;
+    height: 53px;
+  }
+  .invest-form .group-22 {
+    margin-bottom: 3px;
+    display: flex;
+    width: 147px;
+    height: 53px;
+    box-sizing: border-box;
+  }
+  .invest-form .home {
+    margin: 4px 17px 7px 0;
+    display: inline-block;
+    width: 75px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .vehicles {
+    margin-right: 17px;
+    width: 114px;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .about {
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .container-17 {
+    margin: 4px 0 7px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 238.2px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .faq {
+    margin: 4px 0 7px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .contact {
+    margin: 4px 0 7px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .sign-up {
+    overflow-wrap: break-word;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .invest-form .button {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: #73BDF7;
+    display: flex;
+    padding: 12.5px 0 12.5px 8.6px;
+    width: 158px;
+    box-sizing: border-box;
+  }
+  .invest-form .group-21 {
+    border-radius: 10px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 859px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .container-24 {
+    margin: 0 40px 56px 129px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1271px;
+    box-sizing: border-box;
+  }
+  .invest-form .invest-your-car {
+    margin: 0 99.1px 9px 0;
+    display: inline-block;
+    align-self: center;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 45px;
+    color: #000000;
+  }
+  .invest-form .list-your-car-on-our-platform-and-earn-extra-money-by-renting-it-out-to-others-its-awin-win-situation-list-now-and-start-making-money-on-the-side {
+    align-self: flex-start;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1;
+    color: #D4D4D4;
+  }
+  .invest-form .container-15 {
+    background: url('../assets/images/photoroom_1.png') 50% / cover no-repeat;
+    position: relative;
+    margin-bottom: 59px;
+    display: flex;
+    flex-direction: column;
+    padding: 268px 0 190px 48px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .owner-info {
+    margin-bottom: 67px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+  .invest-form .name {
+    margin: 0 19px 3px 0;
+    display: inline-block;
+    width: 77px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .phone-number {
+    margin-top: 3px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .container-11 {
+    margin: 0 31.1px 1px 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 884.4px;
+    box-sizing: border-box;
+  }
+  .invest-form .ex-metrix-max {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .container-7 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    padding: 18px 30px 17px 30px;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .ex-01165483564 {
+    position: relative;
+    margin: 18px 0 17px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .container-21 {
+    margin-bottom: 103px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 921.5px;
+    box-sizing: border-box;
+  }
+  .invest-form .email {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .group-36 {
+    border-radius: 10px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .invest-form .location {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .group-31 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .invest-form .container-4 {
+    margin: 0 6px 19px 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 804.1px;
+    box-sizing: border-box;
+  }
+  .invest-form .ex-metrix-546-gmail-com {
+    position: relative;
+    margin: 0 19px 1px 0;
+    display: inline-block;
+    width: 322px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .ex-klcc {
+    position: relative;
+    margin-top: 1px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .container-26 {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 799.1px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-10 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .invest-form .rectangle-51 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: absolute;
+    left: 41px;
+    bottom: 135px;
+    width: 639px;
+    height: 73px;
+  }
+  .invest-form .rectangle-50 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: absolute;
+    top: 209px;
+    right: 33px;
+    width: 639px;
+    height: 73px;
+  }
+  .invest-form .vector {
+    width: 26.7px;
+    height: 16.7px;
+  }
+  .invest-form .fearrow-up {
+    transform: rotate(179deg);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-6 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: absolute;
+    right: 33px;
+    bottom: 135px;
+    display: flex;
+    padding: 30.8px 24px 25.1px 24px;
+    width: 639px;
+    height: 73px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-8 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), inset -2px -5px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    border: 1px solid #939393;
+    position: relative;
+    margin: 0 18px 39px 17px;
+    padding: 40px 41px 151px 41px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .vehicle-info {
+    margin: 0 2px 39px 2px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+  .invest-form .brand {
+    margin: 0 8px 1px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-bmw {
+    margin-right: 19px;
+    width: 98px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .vector-1 {
+    width: 26.7px;
+    height: 16.7px;
+  }
+  .invest-form .fearrow-up-1 {
+    transform: rotate(179deg);
+    margin: 12.8px 0 8.1px 0;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-1 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 24px 17px 36px;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .group-32 {
+    margin-right: 53px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .invest-form .model {
+    margin: 0 8px 1px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-x-5 {
+    margin-right: 19px;
+    width: 68px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .vector-2 {
+    width: 26.7px;
+    height: 16.7px;
+  }
+  .invest-form .fearrow-up-2 {
+    transform: rotate(179deg);
+    margin: 11.8px 0 9.1px 0;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-22 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 19px 24px 16px 42px;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .group-33 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .invest-form .container-2 {
+    margin: 0 0 49px 2px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .years {
+    margin: 0 8px 1px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-2023 {
+    margin-right: 19px;
+    width: 96px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .vector-3 {
+    width: 26.7px;
+    height: 16.7px;
+  }
+  .invest-form .fearrow-up-3 {
+    transform: rotate(179deg);
+    margin: 10.8px 0 10.1px 0;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-5 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 24px 15px 36px;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .group-34 {
+    margin-right: 53px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .invest-form .mileage {
+    margin: 0 8px 1px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-3500-km {
+    margin-right: 19px;
+    width: 136px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .vector-4 {
+    width: 26.7px;
+    height: 16.7px;
+  }
+  .invest-form .fearrow-up-4 {
+    transform: rotate(179deg);
+    margin: 10.8px 0 10.1px 0;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-18 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 24px 15px 42px;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .group-35 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .invest-form .container-25 {
+    margin: 0 0 49px 2px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .license-plate {
+    margin: 0 6px 1px 6px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-hl-54660 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .container-19 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    padding: 18px 36px 17px 36px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .group-37 {
+    border-radius: 10px;
+    margin-right: 53px;
+    display: flex;
+    flex-direction: column;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .color {
+    margin: 0 8px 1px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-red {
+    margin-right: 19px;
+    width: 85px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .vector-5 {
+    width: 26.7px;
+    height: 16.7px;
+  }
+  .invest-form .fearrow-up-5 {
+    transform: rotate(179deg);
+    margin: 9.8px 0 11.1px 0;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-20 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 21px 24px 14px 42px;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .group-38 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .invest-form .container {
+    margin: 0 0 49px 2px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .condition {
+    margin: 0 8px 1px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-good {
+    margin-right: 19px;
+    width: 106px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .vector-6 {
+    width: 26.7px;
+    height: 16.7px;
+  }
+  .invest-form .fearrow-up-6 {
+    transform: rotate(179deg);
+    margin: 12.8px 0 8.1px 0;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-14 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 24px 17px 36px;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .group-39 {
+    margin-right: 53px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .invest-form .rental-price-per-year {
+    margin: 0 8px 1px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-15000-rm {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .container-23 {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    padding: 19px 42px 16px 42px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .group-40 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 639px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-12 {
+    margin: 0 0 42px 2px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .description {
+    margin: 0 10px 7px 10px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+  }
+  .invest-form .ex-the-car-in-good-condition-and-it-does-not-have-any-problem {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #A1A1A1;
+  }
+  .invest-form .container-9 {
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    background: rgba(237, 237, 237, 0.47);
+    position: relative;
+    padding: 33px 38px 168px 38px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .group-41 {
+    border-radius: 15px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .container-16 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), inset -2px -5px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    border: 1px solid #939393;
+    position: relative;
+    margin: 0 18px 63px 17px;
+    display: flex;
+    flex-direction: column;
+    padding: 39px 33px 79px 39px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .photos-video {
+    margin: 0 53px 15px 53px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+  .invest-form .the-maximum-photo-size-is-8-mb-formats-jpeg-jpg-png-put-the-main-picture-first-the-maximum-video-size-is-10-mb-formats-mp-4-mov {
+    margin: 0 70px 158px 70px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    color: #6C6C6C;
+  }
+  .invest-form .no-file-chosen {
+    margin: 0 0 161px 4.1px;
+    display: inline-block;
+    align-self: center;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #ACACAC;
+  }
+  .invest-form .sign-up-2 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .invest-form .button-2 {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: rgba(55, 57, 131, 0.87);
+    margin-right: 46px;
+    display: flex;
+    align-self: center;
+    padding: 16.5px 0 13.5px 8.7px;
+    width: 550px;
+    box-sizing: border-box;
+  }
+  .invest-form .container-3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .vector-7 {
+    width: 18.3px;
+    height: 21.6px;
+  }
+  .invest-form .radix-iconsupload {
+    margin-right: 9.9px;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+  }
+  .invest-form .sign-up-1 {
+    margin: 1.7px 0 1.8px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+  .invest-form .button-1 {
+    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
+    border-radius: 10px;
+    background: rgba(215, 38, 38, 0.87);
+    display: flex;
+    flex-direction: row;
+    padding: 20.8px 0 17.7px 0;
+    width: 287px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .invest-form .container-13 {
+    border-radius: 20px;
+    border: 1px dashed #FF0000;
+    position: absolute;
+    left: 65px;
+    right: 66px;
+    bottom: 612px;
+    display: flex;
+    padding: 73px 0 133px 6px;
+    box-sizing: border-box;
+  }
+  .invest-form {
+    background: #FFFFFF;
+    display: flex;
+    padding: 23px 0 0 1px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  
