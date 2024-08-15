@@ -1,2434 +1,1550 @@
-.vechicles .doos-removebg-preview-1 {
-    background: url('../assets/images/doos_removebg_preview_1.png') 50% / cover no-repeat;
-    width: 147px;
-    height: 53px;
-  }
-  .vechicles .group-19 {
-    display: flex;
-    width: 147px;
-    height: 53px;
-    box-sizing: border-box;
-  }
-  .vechicles .home {
-    margin: 0 37.5px 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Cinzel';
-    font-weight: 400;
-    font-size: 25px;
-    color: #000000;
-  }
-  .vechicles .subscription {
-    margin-bottom: 1px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Cinzel';
-    font-weight: 400;
-    font-size: 25px;
-    color: #DE0000;
-  }
-  .vechicles .rectangle-44 {
-    border-radius: 50px;
-    background: #DE0000;
-    margin: 0 1px;
-    align-self: flex-start;
-    width: 69px;
-    height: 5px;
-  }
-  .vechicles .container-42 {
-    margin-right: 37.4px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .vechicles .about {
-    margin: 0 37.8px 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Cinzel';
-    font-weight: 400;
-    font-size: 25px;
-    color: #000000;
-  }
-  .vechicles .faq-1 {
-    margin: 0 37.8px 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Cinzel';
-    font-weight: 400;
-    font-size: 25px;
-    color: #000000;
-  }
-  .vechicles .contact {
-    margin-bottom: 6px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Cinzel';
-    font-weight: 400;
-    font-size: 25px;
-    color: #000000;
-  }
-  .vechicles .container-68 {
-    margin: 4px 0 1px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up {
-    overflow-wrap: break-word;
-    font-family: 'Playfair Display';
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #73BDF7;
-    display: flex;
-    padding: 12.5px 0 12.5px 8.6px;
-    width: 158px;
-    box-sizing: border-box;
-  }
-  .vechicles .group-21 {
-    border-radius: 10px;
-    margin-top: 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 859px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .container-65 {
-    margin: 0 27px 22px 123px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1290px;
-    box-sizing: border-box;
-  }
-  .vechicles .find-the-car-the-best-for-you {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 50px;
-    color: rgba(0, 0, 0, 0.65);
-  }
-  .vechicles .nremovebg-preview-1 {
-    background: url('../assets/images/nremovebg_preview_1.png') 50% / cover no-repeat;
-    position: absolute;
-    right: 11px;
-    bottom: 1px;
-    width: 727px;
-    height: 389px;
-  }
-  .vechicles .container-47 {
-    border-radius: 5px;
-    background: #FD8787;
-    position: relative;
-    margin-bottom: 58px;
-    padding: 143px 53px 344px 53px;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .our-vehicles {
-    margin: 0 0.2px 36px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 50px;
-    color: #000000;
-  }
-  .vechicles .our-fleet-includes-avariety-of-vehicles-to-suit-every-preference-and-budget-from-compact-cars-for-city-exploration-to-spacious-suvs {
-    margin: 0 75.9px 107px 76.9px;
-    display: inline-block;
-    text-align: center;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.75);
-  }
-  .vechicles .rectangle-63 {
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    position: absolute;
-    top: 6px;
-    right: 12px;
-    width: 97px;
-    height: 39px;
-  }
-  .vechicles .vector-44 {
-    margin-right: 16.2px;
-    width: 28px;
-    height: 28px;
-  }
-  .vechicles .search-for-car {
-    margin: 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 1;
-    color: #696969;
-  }
-  .vechicles .container-82 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-45 {
-    margin-right: 9px;
-    width: 20px;
-    height: 20px;
-  }
-  .vechicles .filter {
-    margin: 2px 0 1px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.83);
-  }
-  .vechicles .container-21 {
-    position: relative;
-    margin: 4px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .group-42 {
-    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 12px;
-    border: 1px solid #000000;
-    background: rgba(107, 181, 255, 0.33);
-    position: relative;
-    margin: 0 0 98px 1px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 13px 24px 14px 13px;
-    width: 971px;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-46 {
-    box-shadow: var(--m-3-elevation-light-5, 0px 8px 12px 6px rgba(0, 0, 0, 0.15)), var(--m-3-elevation-light-5, 0px 4px 4px 0px rgba(0, 0, 0, 0.3));
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .vechicles .image-18 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    width: 461px;
-    height: 213px;
-  }
-  .vechicles .container-55 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    position: relative;
-    margin-bottom: 37px;
-    display: flex;
-    align-self: flex-end;
-    width: 461px;
-    height: 213px;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-9 {
-    margin-right: 19.8px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-19 {
-    margin: 1px 0 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-78 {
-    position: relative;
-    margin-bottom: 26px;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .cilspeedometer-9 {
-    margin-right: 14px;
-    width: 40px;
-    height: 40px;
-  }
-  .vechicles .km-9 {
-    margin: 14px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-38 {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-37 {
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .material-symbolsperson-outline-9 {
-    margin-right: 15.7px;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-20 {
-    margin: 6.3px 0 0.3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-39 {
-    margin: 6.7px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-12 {
-    margin: 8px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-34 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 519.1px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-14 {
-    position: absolute;
-    right: 0px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-71 {
-    position: relative;
-    margin: 0 3px 43px 3px;
-    display: flex;
-    align-self: flex-start;
-    width: 519.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up-13 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .sign-up-15 {
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button-15 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .button-13 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: relative;
-    margin-left: 28px;
-    display: flex;
-    align-self: center;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-53 {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 49px;
-    display: flex;
-    flex-direction: column;
-    padding: 9px 61px 27px 52px;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-47 {
-    box-shadow: var(--m-3-elevation-light-5, 0px 8px 12px 6px rgba(0, 0, 0, 0.15)), var(--m-3-elevation-light-5, 0px 4px 4px 0px rgba(0, 0, 0, 0.3));
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .vechicles .image-19 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    width: 461px;
-    height: 213px;
-  }
-  .vechicles .container-5 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    position: relative;
-    margin-bottom: 37px;
-    display: flex;
-    align-self: flex-end;
-    width: 461px;
-    height: 213px;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-10 {
-    margin-right: 19.8px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-22 {
-    margin: 1px 0 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-6 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-11 {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-24 {
-    position: absolute;
-    top: 1px;
-    right: 0px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-74 {
-    position: relative;
-    margin-bottom: 26px;
-    display: flex;
-    align-self: flex-start;
-    box-sizing: border-box;
-  }
-  .vechicles .container-46 {
-    margin-right: 14px;
-    width: 40px;
-    height: 40px;
-  }
-  .vechicles .km-10 {
-    margin: 14px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-72 {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-40 {
-    position: relative;
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .vector-43 {
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .material-symbolsperson-outline-11 {
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .material-symbolsperson-outline-10 {
-    position: relative;
-    margin-right: 15.7px;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-21 {
-    margin: 6.3px 0 0.3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-15 {
-    margin: 6.7px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-13 {
-    margin: 8px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-84 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 519.1px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-15 {
-    position: absolute;
-    right: 0px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .km-11 {
-    position: absolute;
-    left: 54px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-23 {
-    position: absolute;
-    left: 223px;
-    bottom: 7px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-75 {
-    position: relative;
-    margin: 0 3px 43px 3px;
-    display: flex;
-    align-self: flex-start;
-    width: 519.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up-14 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .sign-up-16 {
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button-16 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .button-14 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: relative;
-    margin-left: 64px;
-    display: flex;
-    align-self: center;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-57 {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 9px 61px 27px 52px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-43 {
-    margin: 0 34px 31px 47px;
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-49 {
-    box-shadow: var(--m-3-elevation-light-5, 0px 8px 12px 6px rgba(0, 0, 0, 0.15)), var(--m-3-elevation-light-5, 0px 4px 4px 0px rgba(0, 0, 0, 0.3));
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .vechicles .image-21 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    width: 461px;
-    height: 213px;
-  }
-  .vechicles .container-60 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    position: relative;
-    margin-bottom: 37px;
-    display: flex;
-    align-self: flex-end;
-    width: 461px;
-    height: 213px;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x {
-    margin-right: 19.8px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-4 {
-    margin: 1px 0 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-51 {
-    position: relative;
-    margin-bottom: 26px;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .cilspeedometer {
-    margin-right: 14px;
-    width: 40px;
-    height: 40px;
-  }
-  .vechicles .km {
-    margin: 14px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-18 {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-14 {
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .material-symbolsperson-outline {
-    margin-right: 15.7px;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-1 {
-    margin: 6.3px 0 0.3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-25 {
-    margin: 6.7px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year {
-    margin: 8px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-22 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 519.1px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-1 {
-    position: absolute;
-    right: 0px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-28 {
-    position: relative;
-    margin: 0 3px 43px 3px;
-    display: flex;
-    align-self: flex-start;
-    width: 519.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up-1 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .sign-up-2 {
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button-2 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .button-1 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: relative;
-    margin-left: 28px;
-    display: flex;
-    align-self: center;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-7 {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 49px;
-    display: flex;
-    flex-direction: column;
-    padding: 9px 61px 27px 52px;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-51 {
-    box-shadow: var(--m-3-elevation-light-5, 0px 8px 12px 6px rgba(0, 0, 0, 0.15)), var(--m-3-elevation-light-5, 0px 4px 4px 0px rgba(0, 0, 0, 0.3));
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .vechicles .image-23 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    width: 461px;
-    height: 213px;
-  }
-  .vechicles .container-35 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    position: relative;
-    margin-bottom: 37px;
-    display: flex;
-    align-self: flex-end;
-    width: 461px;
-    height: 213px;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-1 {
-    margin-right: 19.8px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-5 {
-    margin: 1px 0 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-54 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-2 {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-6 {
-    position: absolute;
-    top: 1px;
-    right: 0px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-10 {
-    position: relative;
-    margin-bottom: 26px;
-    display: flex;
-    align-self: flex-start;
-    box-sizing: border-box;
-  }
-  .vechicles .container-26 {
-    margin-right: 14px;
-    width: 40px;
-    height: 40px;
-  }
-  .vechicles .km-1 {
-    margin: 14px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-3 {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-15 {
-    position: relative;
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .vector-16 {
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .material-symbolsperson-outline-2 {
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .material-symbolsperson-outline-1 {
-    position: relative;
-    margin-right: 15.7px;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-2 {
-    margin: 6.3px 0 0.3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-17 {
-    margin: 6.7px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-2 {
-    margin: 8px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-50 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 519.1px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-3 {
-    position: absolute;
-    right: 0px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .km-2 {
-    position: absolute;
-    left: 54px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-3 {
-    position: absolute;
-    left: 223px;
-    bottom: 7px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-66 {
-    position: relative;
-    margin: 0 3px 43px 3px;
-    display: flex;
-    align-self: flex-start;
-    width: 519.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up-3 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .sign-up-4 {
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button-4 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .button-3 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: relative;
-    margin-left: 64px;
-    display: flex;
-    align-self: center;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-13 {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 9px 61px 27px 52px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-62 {
-    margin: 0 34px 31px 47px;
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-53 {
-    box-shadow: var(--m-3-elevation-light-5, 0px 8px 12px 6px rgba(0, 0, 0, 0.15)), var(--m-3-elevation-light-5, 0px 4px 4px 0px rgba(0, 0, 0, 0.3));
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .vechicles .image-25 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    width: 461px;
-    height: 213px;
-  }
-  .vechicles .container-63 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    position: relative;
-    margin-bottom: 37px;
-    display: flex;
-    align-self: flex-end;
-    width: 461px;
-    height: 213px;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-3 {
-    margin-right: 19.8px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-10 {
-    margin: 1px 0 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-23 {
-    position: relative;
-    margin-bottom: 26px;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .cilspeedometer-3 {
-    margin-right: 14px;
-    width: 40px;
-    height: 40px;
-  }
-  .vechicles .km-3 {
-    margin: 14px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-48 {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-23 {
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .material-symbolsperson-outline-3 {
-    margin-right: 15.7px;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-7 {
-    margin: 6.3px 0 0.3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-31 {
-    margin: 6.7px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-4 {
-    margin: 8px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-87 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 519.1px;
-    height: fit-content;
+.menu-options-child {
+  height: 53px;
+  width: 147px;
+  position: relative;
+  object-fit: cover;
+}
+.home2,
+.subscription2 {
+  text-decoration: none;
+  position: relative;
+}
+.home2 {
+  color: inherit;
+  display: inline-block;
+  min-width: 75px;
+}
+.subscription2 {
+  color: var(--color-red-200);
+}
+.about2,
+.contact4,
+.faq5 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 84px;
+}
+.contact4,
+.faq5 {
+  min-width: 51px;
+}
+.contact4 {
+  min-width: 119px;
+}
+.social-icons {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-cinzel);
+}
+.footer-divider-child {
+  height: 5px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-red-200);
+}
+.footer-divider {
+  width: 71px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.footer-links1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.account-settings,
+.footer-links1,
+.legal-links {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.legal-links {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+}
+.account-settings {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.sign-up8 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 71px;
+}
+.button10 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi-5) var(--padding-20xl);
+  background-color: var(--color-lightskyblue);
+  width: 158px;
+  box-shadow: 0 2px 4px rgba(136, 144, 194, 0.2),
+    0 5px 15px rgba(37, 44, 97, 0.15);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.button10:hover {
+  background-color: var(--color-steelblue);
+}
+.profile-options {
+  width: 859px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 52px;
+}
+.menu-options,
+.navigation-bar,
+.profile-options {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.menu-options {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navigation-bar {
+  width: 1344px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-cinzel);
+}
+.frame-child20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lightcoral);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.find-the-car {
+  margin: 0;
+  position: absolute;
+  top: 143px;
+  left: 53px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 719px;
+  z-index: 1;
+}
+.n-removebg-preview-1-icon {
+  position: absolute;
+  top: 172px;
+  left: 702px;
+  width: 727px;
+  height: 389px;
+  object-fit: cover;
+  z-index: 2;
+}
+.rectangle-parent15 {
+  align-self: stretch;
+  height: 562px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lightcoral);
+}
+.navigation-bar-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-poppins);
+}
+.our-vehicles {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 320px;
+}
+.frame-child21 {
+  position: absolute;
+  top: 61.1px;
+  left: 3px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-red-200);
+  width: 278px;
+  height: 12px;
+  z-index: 1;
+}
+.our-vehicles-parent {
+  height: 73.1px;
+  width: 320px;
+  position: relative;
+}
+.fleet-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+}
+.our-fleet-includes {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 100%;
+  font-weight: 500;
+  color: var(--color-gray-700);
+  text-align: center;
+}
+.fleet-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.frame-child22 {
+  height: 55px;
+  width: 971px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xs);
+  background-color: var(--color-deepskyblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.search-icon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  min-height: 28px;
+  z-index: 1;
+}
+.search-for-car {
+  position: relative;
+  line-height: 100%;
+  z-index: 1;
+}
+.search-placeholder {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.search-icon-parent,
+.search-input,
+.search-placeholder {
+  display: flex;
+  align-items: flex-start;
+}
+.search-icon-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.search-input {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+}
+.filter-input-child {
+  height: 39px;
+  width: 97px;
+  position: relative;
+  border-radius: var(--br-mini);
+  display: none;
+}
+.filter,
+.filter-icon {
+  position: relative;
+  z-index: 2;
+}
+.filter-icon {
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}
+.filter {
+  font-size: var(--font-size-mid);
+  line-height: 100%;
+  display: inline-block;
+  font-family: var(--font-poppins);
+  color: rgba(0, 0, 0, 0.83);
+  text-align: right;
+  min-width: 44px;
+}
+.filter-input,
+.filter-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.filter-input {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-xs) var(--padding-5xs);
+  background-color: #a1dae7;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  flex-direction: row;
+  gap: var(--gap-4xs);
+  z-index: 1;
+}
+.rectangle-parent16 {
+  width: 971px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xs);
+  background-color: var(--color-deepskyblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-smi) var(--padding-5xs)
+    var(--padding-xs);
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.fleet-content-parent,
+.search-filter {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.search-filter {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-3xl);
+  color: #696969;
+}
+.fleet-content-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-88xl);
+}
+.vechicles-child,
+.vechicles-inner {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vechicles-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-31xl) 36.1px var(--padding-32xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.vechicles-child {
+  width: 655px;
+  height: 480px;
+  position: relative;
+  box-shadow: var(--m3-elevation-light-5);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  display: none;
+}
+.sign-up9 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 124px;
+}
+.button11,
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button17,
+.button18 {
+  width: 230px;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(136, 144, 194, 0.2),
+    0 5px 15px rgba(37, 44, 97, 0.15);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-crimson-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xl) var(--padding-4xl) var(--padding-4xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 12;
+}
+.button12,
+.button13,
+.button14,
+.button15,
+.button16,
+.button17,
+.button18 {
+  z-index: 13;
+}
+.button13,
+.button14,
+.button15,
+.button16,
+.button17,
+.button18 {
+  z-index: 14;
+}
+.button14,
+.button15,
+.button16,
+.button17,
+.button18 {
+  z-index: 15;
+}
+.button15,
+.button16,
+.button17,
+.button18 {
+  z-index: 16;
+}
+.button16,
+.button17,
+.button18 {
+  z-index: 17;
+}
+.button17,
+.button18 {
+  z-index: 18;
+}
+.button18 {
+  z-index: 19;
+}
+.image-16-icon,
+.image-18-icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.image-16-icon {
+  align-self: stretch;
+  width: 461px;
+  max-height: 100%;
+  display: none;
+  min-height: 213px;
+}
+.image-18-icon {
+  height: 213px;
+  flex: 1;
+  overflow: hidden;
+  z-index: 3;
+}
+.vehicle-image-container {
+  width: 461px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 2;
+}
+.tesla-model-x {
+  line-height: 100%;
+  font-weight: 600;
+}
+.cilspeedometer-icon,
+.km,
+.tesla-model-x {
+  position: relative;
+  z-index: 2;
+}
+.cilspeedometer-icon {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.km {
+  line-height: 100%;
+  display: inline-block;
+  min-width: 84px;
+}
+.speedometer-unit,
+.vehicle-performance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.speedometer-unit {
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+}
+.vehicle-performance {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.vehicle-specs {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-xl);
+}
+.passenger-icon,
+.tesla-model-x-parent,
+.vehicle-specs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tesla-model-x-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.passenger-icon {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-mid);
+}
+.div4 {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 13px;
+  z-index: 2;
+}
+.capacity-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.material-symbolsperson-outlin-parent,
+.vehicle-capacity {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.vehicle-capacity {
+  flex-direction: column;
+  gap: var(--gap-10xl);
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-600);
+}
+.rm-39000year,
+.rm-39000year1 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 300;
+  z-index: 2;
+}
+.rm-39000year1 {
+  z-index: 3;
+  margin-left: -194px;
+}
+.rm-39000year-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vehicle-details,
+.vehicle-price {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.vehicle-price {
+  flex-direction: column;
+  padding: 0 0 var(--padding-7xs);
+  font-size: var(--font-size-7xl);
+  color: var(--color-gray-300);
+}
+.vehicle-details {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vehicle-image-container-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+}
+.sign-up17 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 100%;
+  font-weight: 800;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 124px;
+}
+.button19,
+.vehicle-card-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button19 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-29xl);
+  background-color: var(--color-crimson-200);
+  width: 230px;
+  box-shadow: 0 2px 4px rgba(136, 144, 194, 0.2),
+    0 5px 15px rgba(37, 44, 97, 0.15);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 3;
+}
+.button19:hover,
+.button20:hover {
+  background-color: var(--color-tomato);
+}
+.vehicle-card-bottom {
+  width: 514px;
+  justify-content: center;
+  max-width: 100%;
+}
+.vehicle-card-top {
+  flex: 1;
+  box-shadow: var(--m3-elevation-light-5);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-41xl) var(--padding-6xl)
+    var(--padding-32xl);
+  gap: var(--gap-24xl);
+  min-width: 426px;
+  max-width: 100%;
+  z-index: 1;
+}
+.tesla-model-x2 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  z-index: 3;
+  margin-left: -175px;
+}
+.speedometer-icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.km2 {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 3;
+  margin-left: -84px;
+}
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.vehicle-performance-duplicate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.passenger-count,
+.passenger-count1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 46px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.passenger-count1 {
+  z-index: 3;
+}
+.passenger-icon-sub-sub-sub-con {
+  width: 46px;
+  height: 21px;
+  position: relative;
+}
+.passenger-count-right,
+.passenger-count-right1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 13px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.passenger-count-right1 {
+  z-index: 3;
+}
+.passenger-count-right-sub-cont {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+}
+.passenger-count-right-containe {
+  width: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.passenger-icon-right-sub-conta {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.passenger-icon-right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.passenger-icon-sub-container,
+.passenger-icon-sub-sub-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.passenger-icon-sub-container {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.button-container1,
+.button20 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button20 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-29xl);
+  background-color: var(--color-crimson-200);
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(136, 144, 194, 0.2),
+    0 5px 15px rgba(37, 44, 97, 0.15);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  justify-content: flex-end;
+  white-space: nowrap;
+  z-index: 3;
+}
+.button-container1 {
+  width: 252px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.passenger-container,
+.passenger-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.passenger-icon-container {
+  align-self: stretch;
+  gap: var(--gap-24xl);
+}
+.passenger-container {
+  flex: 1;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 225px;
+  max-width: 100%;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-600);
+}
+.vehicle-info-duplicate {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.vehicle-card,
+.vehicle-card-duplicate,
+.vehicle-info-duplicate {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vehicle-card-duplicate {
+  flex: 1;
+  box-shadow: var(--m3-elevation-light-5);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-6xs) var(--padding-41xl) var(--padding-6xl)
+    var(--padding-32xl);
+  gap: var(--gap-18xl);
+  min-width: 426px;
+  z-index: 1;
+}
+.vehicle-card {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-30xl);
+}
+.car-passenger-count {
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 2;
+}
+.car-details-container,
+.car-title-container-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.car-title-container-parent {
+  width: 240px;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.car-details-container {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.car-title-container-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.car-card-list,
+.frame-wrapper13 {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.car-card-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  gap: var(--gap-12xl);
+  max-width: 100%;
+}
+.frame-wrapper13 {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi) var(--padding-7xs) 0;
+}
+.frame-wrapper13,
+.vehicle-card-container,
+.vehicle-grid {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.vehicle-card-container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.vehicle-grid {
+  width: 1427px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 34px 21.1px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.frame-child30 {
+  width: 1440px;
+  height: 392px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.footer-top-child {
+  width: 115px;
+  height: 45px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.in-god-we2 {
+  margin: 0;
+}
+.ergknrgin-wqegn-pwngpngpnpi2 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.in-god-we-container2 {
+  position: relative;
+  z-index: 1;
+}
+.frame-child31 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.teenyiconstwitter-solid2 {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  width: 27px;
+  height: 25px;
+  overflow: hidden;
+  z-index: 1;
+}
+.rectangle-parent22 {
+  height: 38px;
+  width: 36px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.bifacebook-icon2,
+.mdiinstagram-icon2 {
+  position: absolute;
+  top: 7px;
+  left: 6px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.bifacebook-icon2 {
+  top: 5px;
+  width: 26px;
+  height: 26px;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.footer-top,
+.in-god-we-trust-because-im-the-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.in-god-we-trust-because-im-the-group {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.footer-top {
+  width: 322px;
+  gap: var(--gap-8xl);
+  min-width: 322px;
+  max-width: 100%;
+}
+.supported-by2 {
+  position: relative;
+  z-index: 1;
+}
+.column-one {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-27xl);
+}
+.cyberview-logo-rgb-icon2 {
+  height: 101px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.logos-wrapper {
+  width: 224px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.mdec-logo-icon2 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.columns-wrapper,
+.logos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logos1 {
+  align-self: stretch;
+  gap: var(--gap-4xs);
+}
+.columns-wrapper {
+  flex: 1;
+  gap: var(--gap-4xl);
+  min-width: 167px;
+}
+.more-links3 {
+  position: relative;
+  display: inline-block;
+  min-width: 113px;
+  z-index: 1;
+}
+.more-links-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+}
+.faq6 {
+  position: relative;
+  display: inline-block;
+  min-width: 48px;
+  z-index: 1;
+}
+.faq-link2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+}
+.vector-icon3 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 2;
+}
+.contact-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  gap: var(--gap-5xs);
+}
+.investors2,
+.tc2 {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.tc2 {
+  min-width: 50px;
+}
+.column-two,
+.footer-columns,
+.footer-content1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.column-two {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+  min-width: 113px;
+}
+.footer-columns,
+.footer-content1 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.footer-columns {
+  flex: 1;
+  gap: var(--gap-30xl);
+  min-width: 272px;
+  font-size: var(--font-size-3xl);
+}
+.footer-content1 {
+  width: 847px;
+  gap: var(--gap-87xl);
+  min-width: 847px;
+}
+.material-symbolsmail-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.hellodoosmy2 {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contact-methods2,
+.methods {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.contact-methods2 {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.level-1-block3 {
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.contact-details2,
+.details-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.details-wrapper {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.contact-details2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.contact-info-wrapper,
+.footer-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contact-info-wrapper {
+  width: 321px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  min-width: 321px;
+  font-size: var(--font-size-3xl);
+}
+.footer-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.divider-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -1px;
+  z-index: 2;
+}
+.divider-wrapper {
+  width: 1195px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.copyright-icons1,
+.made-by-luai2 {
+  position: relative;
+  z-index: 2;
+}
+.copyright-icons1 {
+  width: 25px;
+  height: 25px;
+}
+.ebrahim2 {
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+  z-index: 2;
+}
+.name1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-7) 0 0;
+}
+.attribution,
+.footer-bottom1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.attribution {
+  justify-content: flex-start;
+  gap: var(--gap-smi-3);
+}
+.footer-bottom1 {
+  width: 1253px;
+  justify-content: center;
+  font-size: var(--font-size-3xl);
+}
+.rectangle-parent21,
+.vechicles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+}
+.rectangle-parent21 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro-100);
+  align-items: flex-start;
+  padding: var(--padding-22xl) var(--padding-16xl) var(--padding-4xs)
+    var(--padding-81xl);
+  gap: var(--gap-sm-5);
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-prata);
+}
+.vechicles {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-xl) 0 0;
+  gap: 61.9px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1325px) {
+  .contact-info-wrapper,
+  .footer-content1 {
+    flex: 1;
+  }
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .social-icons {
+    display: none;
+  }
+  .footer-content1 {
+    gap: var(--gap-34xl);
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .legal-links,
+  .social-icons {
+    gap: var(--gap-lg);
+  }
+  .find-the-car,
+  .our-vehicles {
+    font-size: var(--font-size-21xl);
+  }
+  .fleet-content {
+    gap: var(--gap-mid);
+  }
+  .fleet-content-parent {
+    gap: var(--gap-34xl);
+  }
+  .vechicles-inner {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .vehicle-image-container-parent {
+    gap: var(--gap-lg);
+  }
+  .vehicle-card-top {
+    gap: var(--gap-2xl);
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .vehicle-info-duplicate {
+    flex-wrap: wrap;
+  }
+  .vehicle-card-duplicate {
+    gap: var(--gap-lg);
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .vehicle-card {
+    gap: var(--gap-5xl);
+  }
+  .car-details-container {
+    flex-wrap: wrap;
+  }
+  .car-card-list,
+  .vehicle-card-container {
+    gap: var(--gap-mini);
+  }
+  .footer-top {
+    flex: 1;
+  }
+  .footer-content1 {
+    flex-wrap: wrap;
+  }
+  .rectangle-parent21 {
+    padding-left: var(--padding-31xl);
     box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-5 {
-    position: absolute;
-    right: 0px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-8 {
-    position: relative;
-    margin: 0 3px 43px 3px;
-    display: flex;
-    align-self: flex-start;
-    width: 519.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up-5 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .sign-up-6 {
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button-6 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .button-5 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: relative;
-    margin-left: 28px;
-    display: flex;
-    align-self: center;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-29 {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 49px;
-    display: flex;
-    flex-direction: column;
-    padding: 9px 61px 27px 52px;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-55 {
-    box-shadow: var(--m-3-elevation-light-5, 0px 8px 12px 6px rgba(0, 0, 0, 0.15)), var(--m-3-elevation-light-5, 0px 4px 4px 0px rgba(0, 0, 0, 0.3));
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .vechicles .image-27 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    width: 461px;
-    height: 213px;
-  }
-  .vechicles .container-80 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    position: relative;
-    margin-bottom: 37px;
-    display: flex;
-    align-self: flex-end;
-    width: 461px;
-    height: 213px;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-4 {
-    margin-right: 19.8px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-11 {
-    margin: 1px 0 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-56 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-5 {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-12 {
-    position: absolute;
-    top: 1px;
-    right: 0px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-85 {
-    position: relative;
-    margin-bottom: 26px;
-    display: flex;
-    align-self: flex-start;
-    box-sizing: border-box;
-  }
-  .vechicles .container-83 {
-    margin-right: 14px;
-    width: 40px;
-    height: 40px;
-  }
-  .vechicles .km-4 {
-    margin: 14px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-30 {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-24 {
-    position: relative;
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .vector-25 {
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .material-symbolsperson-outline-5 {
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .material-symbolsperson-outline-4 {
-    position: relative;
-    margin-right: 15.7px;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-8 {
-    margin: 6.3px 0 0.3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-61 {
-    margin: 6.7px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-6 {
-    margin: 8px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-37 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 519.1px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-7 {
-    position: absolute;
-    right: 0px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .km-5 {
-    position: absolute;
-    left: 54px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-9 {
-    position: absolute;
-    left: 223px;
-    bottom: 7px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-40 {
-    position: relative;
-    margin: 0 3px 43px 3px;
-    display: flex;
-    align-self: flex-start;
-    width: 519.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up-7 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .sign-up-8 {
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button-8 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .button-7 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: relative;
-    margin-left: 64px;
-    display: flex;
-    align-self: center;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-33 {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 9px 61px 27px 52px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-19 {
-    margin: 0 34px 43px 47px;
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-57 {
-    box-shadow: var(--m-3-elevation-light-5, 0px 8px 12px 6px rgba(0, 0, 0, 0.15)), var(--m-3-elevation-light-5, 0px 4px 4px 0px rgba(0, 0, 0, 0.3));
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .vechicles .image-29 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    width: 461px;
-    height: 213px;
-  }
-  .vechicles .container-20 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    position: relative;
-    margin-bottom: 37px;
-    display: flex;
-    align-self: flex-end;
-    width: 461px;
-    height: 213px;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-6 {
-    margin-right: 19.8px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-16 {
-    margin: 1px 0 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-58 {
-    position: relative;
-    margin-bottom: 26px;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .cilspeedometer-6 {
-    margin-right: 14px;
-    width: 40px;
-    height: 40px;
-  }
-  .vechicles .km-6 {
-    margin: 14px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-2 {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-32 {
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .material-symbolsperson-outline-6 {
-    margin-right: 15.7px;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-13 {
-    margin: 6.3px 0 0.3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-14 {
-    margin: 6.7px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-8 {
-    margin: 8px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-1 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 519.1px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-9 {
-    position: absolute;
-    right: 0px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-69 {
-    position: relative;
-    margin: 0 3px 43px 3px;
-    display: flex;
-    align-self: flex-start;
-    width: 519.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up-9 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .sign-up-10 {
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button-10 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .button-9 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: relative;
-    margin-left: 28px;
-    display: flex;
-    align-self: center;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-77 {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 49px;
-    display: flex;
-    flex-direction: column;
-    padding: 9px 61px 27px 52px;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-59 {
-    box-shadow: var(--m-3-elevation-light-5, 0px 8px 12px 6px rgba(0, 0, 0, 0.15)), var(--m-3-elevation-light-5, 0px 4px 4px 0px rgba(0, 0, 0, 0.3));
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 100%;
-  }
-  .vechicles .image-31 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    width: 461px;
-    height: 213px;
-  }
-  .vechicles .container-52 {
-    background: url('../assets/images/image_31.png') 50% / cover no-repeat;
-    position: relative;
-    margin-bottom: 37px;
-    display: flex;
-    align-self: flex-end;
-    width: 461px;
-    height: 213px;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-7 {
-    margin-right: 19.8px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-17 {
-    margin: 1px 0 3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-9 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .tesla-model-x-8 {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-18 {
-    position: absolute;
-    top: 1px;
-    right: 0px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  .vechicles .container-16 {
-    position: relative;
-    margin-bottom: 26px;
-    display: flex;
-    align-self: flex-start;
-    box-sizing: border-box;
-  }
-  .vechicles .container-73 {
-    margin-right: 14px;
-    width: 40px;
-    height: 40px;
-  }
-  .vechicles .km-7 {
-    margin: 14px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-41 {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-33 {
-    position: relative;
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .vector-34 {
-    width: 26.7px;
-    height: 26.7px;
-  }
-  .vechicles .material-symbolsperson-outline-8 {
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .material-symbolsperson-outline-7 {
-    position: relative;
-    margin-right: 15.7px;
-    display: flex;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-14 {
-    margin: 6.3px 0 0.3px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-86 {
-    margin: 6.7px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-10 {
-    margin: 8px 0 6px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .container-12 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 519.1px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .rm-39000-year-11 {
-    position: absolute;
-    right: 0px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 300;
-    font-size: 26px;
-    line-height: 1;
-    color: #010101;
-  }
-  .vechicles .km-8 {
-    position: absolute;
-    left: 54px;
-    bottom: 6px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-15 {
-    position: absolute;
-    left: 223px;
-    bottom: 7px;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1;
-    color: #000000;
-  }
-  .vechicles .container-49 {
-    position: relative;
-    margin: 0 3px 43px 3px;
-    display: flex;
-    align-self: flex-start;
-    width: 519.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .sign-up-11 {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .sign-up-12 {
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 1;
-    color: #FFFFFF;
-  }
-  .vechicles .button-12 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
-    display: flex;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .button-11 {
-    box-shadow: 0px 2px 4px 0px rgba(136, 144, 194, 0.2), 0px 5px 15px 0px rgba(37, 44, 97, 0.15);
-    border-radius: 10px;
-    background: #D72626;
-    position: relative;
-    margin-left: 64px;
-    display: flex;
-    align-self: center;
-    padding: 18px 0 18px 6.6px;
-    width: 230px;
-    box-sizing: border-box;
-  }
-  .vechicles .container {
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 9px 61px 27px 52px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-64 {
-    margin: 0 34px 83px 47px;
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .doos-removebg-preview-2 {
-    background: url('../assets/images/doos_removebg_preview_1.png') 50% / cover no-repeat;
-    width: 115px;
-    height: 45px;
-  }
-  .vechicles .group-13 {
-    display: flex;
-    width: 115px;
-    height: 45px;
-    box-sizing: border-box;
-  }
-  .vechicles .supported-by {
-    margin-bottom: 15px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .more-links {
-    margin-bottom: 15px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .contact-info {
-    margin-bottom: 15px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .container-59 {
-    margin-bottom: 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: flex-start;
-    width: 1115.1px;
-    box-sizing: border-box;
-  }
-  .vechicles .in-god-we-trust-because-im-the-king-of-frica-ergknrgin-wqegn-pwngpngpnpi-n-4-ni-3 {
-    margin-bottom: 15px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 14px;
-    color: #000000;
-  }
-  .vechicles .vector {
-    width: 27px;
-    height: 21.7px;
-  }
-  .vechicles .teenyiconstwitter-solid {
-    display: flex;
-    width: 27px;
-    height: 25px;
-    box-sizing: border-box;
-  }
-  .vechicles .group-3 {
-    border-radius: 5px;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 27px;
-    display: flex;
-    padding: 8.7px 4px 7.7px 5px;
-    width: 36px;
-    height: 38px;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-1 {
-    width: 20px;
-    height: 20px;
-  }
-  .vechicles .mdiinstagram {
-    display: flex;
-    width: 24px;
-    height: 24px;
-    box-sizing: border-box;
-  }
-  .vechicles .group-2 {
-    border-radius: 5px;
-    background: #FFFFFF;
-    position: relative;
-    margin-right: 25px;
-    display: flex;
-    padding: 9px 8px;
-    width: 36px;
-    height: 38px;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-2 {
-    width: 26px;
-    height: 26px;
-  }
-  .vechicles .bifacebook {
-    display: flex;
-    width: 26px;
-    height: 26px;
-    box-sizing: border-box;
-  }
-  .vechicles .group-1 {
-    border-radius: 5px;
-    background: #FFFFFF;
-    position: relative;
-    display: flex;
-    padding: 5px 4px 7px 6px;
-    width: 36px;
-    height: 38px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-4 {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: 160px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-76 {
-    margin-top: 19px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .vechicles .cyberview-logo-rgb {
-    background: url('../assets/images/cyberview_logo_rgb.png');
-    margin-bottom: 9px;
-    width: 160px;
-    height: 101px;
-  }
-  .vechicles .contact-us {
-    margin-bottom: 8px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .faq {
-    margin: 18px 0.7px 0 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .vector-5 {
-    margin-bottom: 18px;
-    width: 30px;
-    height: 30px;
-  }
-  .vechicles .container-36 {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .container-24 {
-    margin: 8px 0 16px 0;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-4 {
-    width: 20px;
-    height: 16px;
-  }
-  .vechicles .material-symbolsmail {
-    margin: 0 0.7px 34.2px 0.6px;
-    display: flex;
-    width: 24px;
-    height: 24px;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-3 {
-    width: 21.3px;
-    height: 21.2px;
-  }
-  .vechicles .iconoirphone-solid {
-    display: flex;
-    width: 24px;
-    height: 24px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-11 {
-    margin: 4px 26.3px 7.6px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 21.3px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .hellodoos-my {
-    margin: 0 0.1px 23px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .container {
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .container-44 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .vechicles .container-27 {
-    margin: 8px 0 19px 0;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .container-70 {
-    margin-right: 65px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1194.3px;
-    box-sizing: border-box;
-  }
-  .vechicles .mdec-logo {
-    background: url('../assets/images/mdec_logo.png') 50% / cover no-repeat;
-    margin: 0 49px 37px 0;
-    width: 257px;
-    height: 56px;
-  }
-  .vechicles .investors {
-    margin-bottom: 23px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .tc {
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .container-32 {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
-  .vechicles .container-79 {
-    margin-bottom: 42px;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .level-1-block-2330-century-square-jalan-usahawan-off-persiaran-multimedia-cyberjaya-63000-selangor-malaysia {
-    position: relative;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 20px;
-    color: #000000;
-  }
-  .vechicles .container-67 {
-    margin-bottom: 14px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: flex-end;
-    width: 831.3px;
-    box-sizing: border-box;
-  }
-  .vechicles .made-by-luai {
-    margin: 0 12.3px 2.7px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .vector-6 {
-    margin: 3px 13px 4.7px 0;
-    width: 25px;
-    height: 25px;
-  }
-  .vechicles .ebrahim {
-    margin-top: 2.7px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Prata';
-    font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-  }
-  .vechicles .group-7 {
-    margin-right: 12.5px;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-  }
-  .vechicles .vector-7 {
-    margin: 3px 0 4.7px 0;
-    width: 25px;
-    height: 25px;
-  }
-  .vechicles .group-11 {
-    margin-right: 6.3px;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    width: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .container-45 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 1259.3px;
-    height: fit-content;
-    box-sizing: border-box;
-  }
-  .vechicles .line-1 {
-    background: #FFFFFF;
-    position: absolute;
-    left: 129px;
-    bottom: 55px;
-    width: 1137px;
-    height: 0px;
-  }
-  .vechicles .group-23 {
-    background: #DEDEDE;
-    position: relative;
-    display: flex;
-    padding: 41px 80.7px 6.3px 100px;
-    width: 1440px;
-    box-sizing: border-box;
-  }
-  .vechicles .container-81 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  .vechicles .rectangle-491 {
-    border-radius: 50px;
-    background: #DE0000;
-    position: absolute;
-    left: 565px;
-    top: 780px;
-    width: 278px;
-    height: 12px;
   }
   .vechicles {
-    background: #FFFFFF;
-    padding-top: 20px;
-    width: 1440px;
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .profile-options {
+    gap: var(--gap-7xl);
+  }
+  .find-the-car,
+  .our-vehicles {
+    font-size: var(--font-size-11xl);
+  }
+  .our-fleet-includes {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .search-for-car {
+    font-size: var(--font-size-lg);
+    line-height: 18px;
+  }
+  .rectangle-parent16 {
+    flex-wrap: wrap;
+  }
+  .fleet-content-parent {
+    gap: var(--gap-8xl);
+  }
+  .tesla-model-x {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .div4,
+  .km {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+  .rm-39000year,
+  .rm-39000year1 {
+    font-size: var(--font-size-2xl);
+    line-height: 21px;
+  }
+  .tesla-model-x2 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .km2 {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+  .passenger-count,
+  .passenger-count1 {
+    font-size: var(--font-size-mid);
+    line-height: 17px;
+  }
+  .passenger-count-right,
+  .passenger-count-right1 {
+    font-size: var(--font-size-base);
+    line-height: 16px;
+  }
+  .passenger-icon-sub-container {
+    flex-wrap: wrap;
+  }
+  .passenger-icon-container {
+    gap: var(--gap-2xl);
+  }
+  .car-passenger-count {
+    font-size: var(--font-size-mid);
+    line-height: 17px;
+  }
+  .faq6,
+  .investors2,
+  .more-links3,
+  .supported-by2,
+  .tc2 {
+    font-size: var(--font-size-lg);
+  }
+  .column-two {
+    flex: 1;
+  }
+  .footer-columns {
+    flex-wrap: wrap;
+    gap: var(--gap-5xl);
+  }
+  .footer-content1 {
+    gap: var(--gap-7xl);
+  }
+  .hellodoosmy2 {
+    font-size: var(--font-size-lg);
+  }
+  .level-1-block3 {
+    font-size: var(--font-size-base);
+  }
+  .contact-info-wrapper {
+    gap: var(--gap-mini);
+  }
+  .ebrahim2,
+  .made-by-luai2 {
+    font-size: var(--font-size-lg);
+  }
+  .attribution {
+    flex-wrap: wrap;
+  }
+  .rectangle-parent21 {
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
-  
+  .vechicles {
+    gap: var(--gap-mini);
+  }
+}
