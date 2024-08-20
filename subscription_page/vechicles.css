@@ -852,6 +852,7 @@
     gap: var(--gap-12xl);
   }
 }
+
 @media screen and (max-width: 450px) {
   .profile-options {
     gap: var(--gap-7xl);
@@ -958,4 +959,65 @@
   .vechicles {
     gap: var(--gap-mini);
   }
+}
+
+.vehicle-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.vehicle-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.vehicle-info {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.vehicle-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.vehicle-attributes {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.vehicle-attributes span {
+  display: block;
+}
+
+.vehicle-price {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rent-now-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rent-now-button:hover {
+  background-color: #45a049;
 }
