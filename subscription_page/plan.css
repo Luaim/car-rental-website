@@ -1,5 +1,87 @@
 @import url('http//fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+
+/* this part for the header */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.logo {
+  margin-left: 70px; 
+}
+
+.logo img {
+  height: 55px; 
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-left: 400px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+nav ul li a.active {
+  color: rgb(155, 57, 57);
+  border-bottom: 3px solid red;
+  padding-bottom: 3px;
+  width: 105%;
+  border-radius: 10px;
+}
+
+.button-1 {
+  background: linear-gradient(to bottom, #7DA2F9 0%, #5C8DF6 100%); 
+  border: none; 
+  border-radius: 10px; 
+  color: white; 
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 14px; 
+  font-weight: 50; 
+  padding: 10px 35px; 
+  text-align: center; 
+  text-decoration: none;
+  transition: all 0.2s ease-in-out; 
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-1:hover {
+  background: linear-gradient(to bottom, #698EEF 0%, #4A6FDD 100%); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.button-1:active {
+  background: linear-gradient(to bottom, #5577D4 0%, #3B5DB9 100%); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  transform: translateY(1px); 
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
