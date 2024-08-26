@@ -1,0 +1,369 @@
+@import url('http//fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    
+  }
+  .logo {
+    margin-left: 70px; 
+  }
+  
+  .logo img {
+    height: 55px; 
+    width: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 100px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+  
+  .slider {
+    width: 1000px;
+    max-width: 100vw;
+    height: 400px;
+    margin-top: 100px; /* Only adds space above the slider */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 1000px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #000000;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+
+/* Car info  */
+
+
+.car-info {
+  font-family: Arial, sans-serif;
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #333;
+  margin-left: 450px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+/* Styling for the car brand (Hyundai) */
+.car-info .brand {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Styling for the car model (STARIA 2.2 Plus) */
+.car-info .model {
+  font-weight: 300; /* Lighter weight than bold */
+  margin-left: 5px; /* Optional: Add spacing between the brand and model */
+  font-size: 28px;
+}
+
+
+/* Styling for the car year (2023) */
+.car-info .year {
+  font-weight: 150; /* Light weight */
+  margin-left: 5px; /* Optional: Add spacing between the model and year */
+}
+
+
+/* Below is right section code */
+
+.right-section{
+  float: right;
+  margin-right: 445px;
+  
+}
+.pricing-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  max-width: 450px;
+  margin-left: 960px;
+}
+
+.pricing-header {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.highlighted-price {
+  color: #00b894;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.next-month {
+  color: #999;
+  font-size: 12px;
+}
+
+.subscription-plan h3, .mileage-plan h3 {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Left section code*/ 
+
+.left-section{
+  float: left;
+  padding: 20px;
+}
+
+.car-specs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.specs-row {
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.spec-item {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.spec-title {
+  display: block;
+  font-weight: 600;
+  color: #333;
+}
+
+.spec-detail {
+  display: block;
+  font-weight: 400;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Additional Styling for alignment and spacing */
+@media (max-width: 768px) {
+  .spec-item {
+      width: 100%;
+  }
+}
+
+/* From Uiverse.io by escannord */ 
+.radio-input input {
+  display: none;
+}
+
+.radio-input label {
+  --border-color: #a1b0d8;
+
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  min-width: 5rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.radio-input input:checked + label {
+  --border-color: #2f64d8;
+  border-color: var(--border-color);
+  border-width: 2px;
+}
+.radio-input label:hover {
+  --border-color: #2f64d8;
+  border-color: var(--border-color);
+}
+
+.radio-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  flex-direction: column;
+}
+
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(189, 187, 207);
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.radio-input input:checked + label span.circle::before {
+  content: "";
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2f64d8;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-weight: bold;
+}
+
+.small {
+  font-size: 10px;
+  color: rgb(136, 138, 139);
+  font-weight: 100;
+}
+
+.info {
+  position: absolute;
+  display: inline-block;
+  font-size: 11px;
+  background-color: rgb(31, 236, 123);
+  border-radius: 20px;
+  padding: 1px 9px;
+  top: 0;
+  transform: translateY(-50%);
+  right: 5px;
+}
+
+
+/* Mileage selector */ 
+
+/* Basic styling for the container of the dropdown */
+.dropdown-container {
+  width: 410px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  align-content: center;
+}
+
+/* Styling for the select element */
+.dropdown-container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Optional: Styling for the label */
+.dropdown-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.next-button button {
+  width: 200px;
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+
+.next-button button:hover {
+  background-color: #c0392b;
+}
+
+ 
+

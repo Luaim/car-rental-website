@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Plan Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./plan.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../assets/Doos logo.png" alt="DOOS Logo" style="margin-right: 20px;">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../Main_Page/main.html">Home</a></li>
+                    <li><a href="../subscription_page/vehicles.html" class="active">Subscription</a></li>
+                    <li><a href="../About_us_Page/about_us.html">About</a></li>
+                    <li><a href="../FAQ_page/faq.html">FAQ</a></li>
+                    <li><a href="../About_us_Page/about_us.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X">
+            </div>
+            <!-- Repeat the above item div as needed -->
+        </div>
+        <div class="buttons">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script src="plan.js"></script>
+
+    <div class="car-info">
+        <span class="brand">Hyundai</span>
+        <span class="model">STARIA 2.2 Plus</span>
+        <span class="year">2023</span>
+    </div>
+
+    <div class="sections">
+        <div class="right-section">
+            <div class="pricing-container">
+                <div class="pricing-details">
+                    <div class="pricing-header">
+                        <span class="highlighted-price">RM 1,755</span>/month for your 1st month
+                        <p class="next-month">then RM 3,510/month</p>
+                    </div>
+
+                    <div class="subscription-plan">
+                        <h3>SUBSCRIPTION PLAN</h3>
+                        <div class="radio-input">
+                            <input value="value-1" name="value-radio" id="value-1" type="radio" />
+                            <label for="value-1">
+                                <div class="text">
+                                    <span class="circle"></span>
+                                    36 months
+                                </div>
+                                <div class="price">
+                                    <span>RM 1240/mo</span>
+                                    <span class="small">RM 1240 billed every month</span>
+                                </div>
+                            </label>
+
+                            <input value="value-2" name="value-radio" id="value-2" type="radio" />
+                            <label for="value-2">
+                                <div class="text">
+                                    <span class="circle"></span>
+                                    24 Months
+                                </div>
+                                <div class="price">
+                                    <span>RM 1350/mo</span>
+                                    <span class="small">RM 1350 billed once a month</span>
+                                </div>
+                                <span class="info">save up to 50%</span>
+                            </label>
+
+                            <input value="value-3" name="value-radio" id="value-3" type="radio" />
+                            <label for="value-3">
+                                <div class="text">
+                                    <span class="circle"></span>
+                                    12 Months
+                                </div>
+                                <div class="price">
+                                    <span>RM 1500/mo</span>
+                                    <span class="small">RM 1500 billed every month</span>
+                                </div>
+                            </label>
+
+                            <input value="value-4" name="value-radio" id="value-4" type="radio" />
+                            <label for="value-4">
+                                <div class="text">
+                                    <span class="circle"></span>
+                                    1 Month
+                                </div>
+                                <div class="price">
+                                    <span>RM 300/mo</span>
+                                    <span class="small">RM 300 billed every month</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="mileage-plan">
+                        <h3>MILEAGE PER MONTH</h3>
+                        <div class="dropdown-container">
+                            <select id="mileage-options" name="mileage-plan">
+                                <option value="lite">Lite 1250KM <span>Free</span></option>
+                                <option value="standard">Standard 2000KM - +RM1250</option>
+                            </select>
+                        </div>
+
+                        <div class="next-button">
+                            <button>NEXT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="car-specs">
+                <div class="specs-row">
+                    <div class="spec-item">
+                        <span class="spec-title">BODY TYPE</span>
+                        <span class="spec-detail">MPV</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-title">FUEL TYPE</span>
+                        <span class="spec-detail">Diesel</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-title">TRANSMISSION</span>
+                        <span class="spec-detail">Automatic</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-title">DRIVE TRAIN</span>
+                        <span class="spec-detail">FWD</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-title">ENGINE CAPACITY</span>
+                        <span class="spec-detail">2199 CC</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-title">COLOUR</span>
+                        <span class="spec-detail">Black</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-title">0 - 100 KM/H</span>
+                        <span class="spec-detail">16 s</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-title">FUEL EFFICIENCY</span>
+                        <span class="spec-detail">8.2 L/100KM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
