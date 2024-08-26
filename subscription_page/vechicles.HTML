@@ -1,977 +1,1041 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="initial-scale=1, width=device-width" />
-<title>DOOS Website</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./vechicles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>DOOS Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./vechicles.css">
 </head>
+
 <body>
-  <!-- this part for the header the top part in the page-->
-<header>
-    <div class="navbar">
-        <div class="logo">
-            <img src="../assets/Doos logo.png" alt="DOOS Logo" style="margin-right: 20px;">
+    <!-- this part for the header the top part in the page-->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../assets/Doos logo.png" alt="DOOS Logo" style="margin-right: 20px;">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../Main_Page/main.Html">Home</a></li>
+                    <li><a href="../subscription_page/vechicles.HTML" class="active">Subscription</a></li>
+                    <li><a href="../About_us_Page/about_us.html">About</a></li>
+                    <li><a href="../FAQ_page/faq.HTML">FAQ</a></li>
+                    <li><a href="../Contact_Page/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="button-1">Sign Up</button>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../Main_Page/main.Html">Home</a></li>
-                <li><a href="../subscription_page/vechicles.HTML" class="active">Subscription</a></li>
-                <li><a href="../About_us_Page/about_us.html">About</a></li>
-                <li><a href="../FAQ_page/faq.HTML">FAQ</a></li>
-                <li><a href="../About_us_Page/about_us.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="button-1">Sign Up</button>
-    </div>
-</header>
-<!-- this part for the hero the part after the header-->
-<section class="hero">
-  <div class="hero-text">
-      <h1>Find the car that's best for you</h1>
-      <h2>List your car on our platform and earn extra money by renting it out to others. It’s a win-win situation! List now and start making money on the side.</h2>
-  </div>
-  <img src="../assets/Cars subscription page.png" alt="Car Image" class="hero-image">
-</section>
-<!-- this part header of the cars options which is under the hero-->
-<section class="vehicle-section">
-  <h2 class="vehicle-title">Our Vehicles</h2>
-  <p class="vehicle-subtitle">Our fleet includes a variety of vehicles to suit every preference and budget, From compact cars for city exploration to spacious SUVs</p>
-  <div class="search-container">
-      <input type="text" class="search-input" placeholder="Search for car">
-      <button class="filter-button">
-        <img src="../assets/Filter icon.png" alt="Filter Icon" class="filter-icon">
-        Filter
-    </button>
-  </div>
-</section>
-<!-- this part is for the car cards which will be listed under the search par and the filter-->
-<section>
-  <div class="car-grid">
-  <div class="car-card">
-    <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-    <div class="car-details">
-        <h3 class="car-title">Tesla Model X</h3>
-        <p class="car-price">RM 800/Years</p>
-        <div class="car-info">
-            <div class="car-feature">
-                <img src="../assets/Seats.png" alt="Seats">
-                <span>4 Seats</span>
+    </header>
+    <!-- this part for the hero the part after the header-->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Find the car that's best for you</h1>
+            <h2>List your car on our platform and earn extra money by renting it out to others. It’s a win-win
+                situation! List now and start making money on the side.</h2>
+        </div>
+        <img src="../assets/Cars subscription page.png" alt="Car Image" class="hero-image">
+    </section>
+    <!-- this part header of the cars options which is under the hero-->
+    <section class="vehicle-section">
+        <h2 class="vehicle-title">Our Vehicles</h2>
+        <p class="vehicle-subtitle">Our fleet includes a variety of vehicles to suit every preference and budget, From
+            compact cars for city exploration to spacious SUVs</p>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search for car">
+            <button class="filter-button">
+                <img src="../assets/Filter icon.png" alt="Filter Icon" class="filter-icon">
+                Filter
+            </button>
+        </div>
+    </section>
+    <!-- this part is for the car cards which will be listed under the search par and the filter-->
+    <section>
+        <div class="car-grid">
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
             </div>
-            <div class="car-feature">
-                <img src="../assets/AC.png" alt="Air Conditioning">
-                <span>AC</span>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
             </div>
-            <div class="car-feature">
-                <img src="../assets/system.png" alt="Transmission">
-                <span>Auto</span>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
             </div>
-            <div class="car-feature">
-                <img src="../assets/Petrol station.png" alt="Fuel Type">
-                <span>Petrol</span>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
+                <div class="car-details">
+                    <h3 class="car-title">Tesla Model X</h3>
+                    <p class="car-price">RM 800/Years</p>
+                    <div class="car-info">
+                        <div class="car-feature">
+                            <img src="../assets/Seats.png" alt="Seats">
+                            <span>4 Seats</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/AC.png" alt="Air Conditioning">
+                            <span>AC</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/system.png" alt="Transmission">
+                            <span>Auto</span>
+                        </div>
+                        <div class="car-feature">
+                            <img src="../assets/Petrol station.png" alt="Fuel Type">
+                            <span>Petrol</span>
+                        </div>
+                    </div>
+                    <button class="rent-car-btn">Rent the Car</button>
+                </div>
+            </div>
+
+        </div>
+        <button id="loadMore" onclick="loadMoreCards()">Load More</button>
+        <script src="./vechicles.js"></script>
+
+    </section>
+    <!--this section is the last part which is used for the footer-->
+
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="../assets/Doos logo.png" alt="Logo">
+                </a>
+                <p>In God we trust because I'm the king of FRICA</p>
+                <div class="social">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                </div>
+            </div>
+            <div class="supported">
+                <h3>Supported by</h3>
+                <ul>
+                    <li><img src="../assets/cyberview logo.png" alt="Support 1" width="100px"></li>
+                    <li><img src="../assets/mdec logo.png" alt="Support 2" width="100px"></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Helpful Links</h3>
+                <ul>
+                    <li><a href="../Contact_Page/contact.html">Contact Us</a></li>
+                    <li><a href="../FAQ_page/faq.HTML">FAQ</a></li>
+                    <li><a href="../Invest_Form_Page/invest_form.HTML">Investors</a></li>
+                    <li><a href="#">T&C</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:hello@doos.my">hello@doos.my</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+60148095166">+60 148095166</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> Level 1, Block 2330, Century Square, Jalan Usahawan, Off
+                        Persiaran Multimedia, Cyberjaya, 63000, Selangor, Malaysia</li>
+                </ul>
             </div>
         </div>
-        <button class="rent-car-btn">Rent the Car</button>
-    </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-<div class="car-card">
-  <img src="../assets/Tesla Model X.png" alt="Tesla Model X" class="car-image">
-  <div class="car-details">
-      <h3 class="car-title">Tesla Model X</h3>
-      <p class="car-price">RM 800/Years</p>
-      <div class="car-info">
-          <div class="car-feature">
-              <img src="../assets/Seats.png" alt="Seats">
-              <span>4 Seats</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/AC.png" alt="Air Conditioning">
-              <span>AC</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/system.png" alt="Transmission">
-              <span>Auto</span>
-          </div>
-          <div class="car-feature">
-              <img src="../assets/Petrol station.png" alt="Fuel Type">
-              <span>Petrol</span>
-          </div>
-      </div>
-      <button class="rent-car-btn">Rent the Car</button>
-  </div>
-</div>
-
-</div>
-<button id="loadMore" onclick="loadMoreCards()">Load More</button>
-<script src="./vechicles.js"></script>
-
-</section>
+        <div class="copyright">
+            <p>&copy; 2024 DOOS. All rights reserved. <a href="#">Terms & Conditions</a> <a href="#"> . Privacy
+                    Policy</a></p>
+        </div>
+        <!-- New section for LinkedIn icons and names -->
+        <div class="credits">
+            <a href="https://www.linkedin.com/in/luai-linkedin" target="_blank" class="credit-item">
+                <span class="text">Made By</span>
+                <i class="fab fa-linkedin"></i>
+                <span class="name">Luai</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ebriham-linkedin" target="_blank" class="credit-item">
+                <i class="fab fa-linkedin"></i>
+                <span class="name"> Ebriham</span>
+            </a>
+        </div>
+    </footer>
 
 </body>
+
 </html>
