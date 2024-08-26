@@ -65,6 +65,7 @@ nav ul li a.active {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  white-space: nowrap;
 }
 
 .button-1:hover {
@@ -237,8 +238,8 @@ nav ul li a.active {
   grid-template-columns: repeat(4, 1fr); 
   grid-gap: 40px; 
   justify-content: center;
-  margin: 20px auto; 
-  padding: 0 60px;
+  margin: 30px auto; 
+  padding: 0 70px;
 }
 
 .car-card {
@@ -371,4 +372,173 @@ nav ul li a.active {
   color: #000 !important;
   background-color: transparent !important;
   pointer-events: none;
+}
+
+/*this section is for the footer*/
+footer {
+  background-color: #1A202C;
+  padding: 50px 0;
+  color: #fff; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; 
+}
+
+.logo {
+  width: 25%;
+  padding: 0 15px; 
+  text-align: left;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.supported, .links, .contact {
+  width: 25%;
+  padding: 0 15px; 
+}
+
+.supported ul {
+  list-style: none;
+  padding: 0;
+}
+
+.supported ul li {
+  margin-bottom: 10px;
+}
+
+.links ul, .contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links ul li, .contact ul li {
+  margin-bottom: 10px;
+}
+
+.supported ul li img {
+  width: 50%; 
+  max-width: 200px; 
+  height: auto; 
+}
+
+
+.links ul li a, .contact ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links ul li a:hover, .contact ul li a:hover {
+  text-decoration: underline;
+  color: #38B2AC;
+}
+
+.social {
+  margin-top: 15px; 
+}
+
+.social a {
+  color: #38B2AC;
+  font-size: 25px; 
+  margin-right: 15px; 
+}
+
+.social a:last-child {
+  margin-right: 0; 
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
+  color: #38B2AC;
+}
+
+/* Responsive for smaller screens */
+@media screen and (max-width: 992px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center; 
+  }
+
+  .logo, .supported, .links, .contact {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0; 
+  }
+}
+
+/* Style for the credits section */
+.credits {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.credit-item {
+  color: #fff; 
+  text-decoration: none; 
+  display: inline-flex; 
+  align-items: center; 
+  margin: 0 15px; 
+}
+
+.credit-item i {
+  margin-right: 8px; 
+  font-size: 16px; 
+  transition: color 0.3s ease; 
+}
+
+.credit-item .text {
+  color: #fff; 
+  margin-right: 8px; 
+  transition: color 0.3s ease; 
+}
+
+.credit-item .name {
+  color: #fff; 
+  transition: color 0.3s ease; 
+}
+
+.credit-item:hover i {
+  color: #38B2AC; 
+}
+
+.credit-item:hover .text,
+.credit-item:hover .name {
+  color: #38B2AC; 
+}
+
+.credit-item:hover {
+  text-decoration: underline; 
+}
+
+.credit-item:first-child {
+  margin-left: 0;
+}
+
+.credit-item:last-child {
+  margin-right: 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+  .credits {
+    font-size: 12px; 
+  }
 }

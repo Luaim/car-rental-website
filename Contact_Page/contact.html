@@ -1,344 +1,144 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>DOOS Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./contact.CSS">
+</head>
 
-    <link rel="stylesheet" href="../global.css" />
-    <link rel="stylesheet" href="./contact.CSS" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@600&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Prata:wght@400&display=swap"
-    />
-  </head>
-  <body>
-    <div class="contact2">
-      <div class="contact-child"></div>
-      <div class="header">
-        <header class="navigation">
-          <img
-            class="navigation-child"
-            loading="lazy"
-            alt=""
-            src="../public/group-17@2x.png"
-          />
-
-          <div class="menu">
-            <div class="menu-background"></div>
-          </div>
-        </header>
+<body>
+    <!-- this part for the header the top part in the page-->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../assets/Doos logo.png" alt="DOOS Logo" style="margin-right: 20px;">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../Main_Page/main.Html">Home</a></li>
+                    <li><a href="../subscription_page/vechicles.HTML">Subscription</a></li>
+                    <li><a href="../About_us_Page/about_us.html">About</a></li>
+                    <li><a href="../FAQ_page/faq.HTML">FAQ</a></li>
+                    <li><a href="../Contact_Page/contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="button-1">Sign Up</button>
+        </div>
+    </header>
+<!-- Contact Us Section the section under the header-->
+<section class="contact-section">
+  <h2>Contact Us</h2>
+  <div class="contact-underline"></div>
+  <div class="contact-card">
+      <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Address</h3>
+          <p>Cyberjaya, Malaysia</p>
       </div>
-      <section class="contact-info-container-wrapper">
-        <div class="contact-info-container">
-          <div class="contact-details1">
-            <div class="contact-options">
-              <h1 class="contact-us1">Contact Us</h1>
-              <div class="contact-divider"></div>
-            </div>
-          </div>
-          <div class="address-block">
-            <div class="address-block-child"></div>
-            <div class="contact-icons-parent">
-              <div class="contact-icons">
-                <img
-                  class="mingcutelocation-line-icon"
-                  loading="lazy"
-                  alt=""
-                  src="../public/mingcutelocationline.svg"
-                />
+      <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <h3>Mail</h3>
+          <p>hello@doos.my</p>
+      </div>
+      <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <h3>Phone number</h3>
+          <p>+60 148095166</p>
+      </div>
+  </div>
+</section>
+<!-- Message Us Section this part which is under the contact us info-->
+<section class="message-section">
+  <div class="message-container">
+      <!-- Form Container -->
+      <div class="form-container">
+          <h2>Message Us</h2>
+          <div class="message-underline"></div>
+          <form>
+              <div class="form-group">
+                  <input type="text" id="first-name" placeholder="Ex. Ali" required>
+                  <input type="text" id="last-name" placeholder="Ex. Mohammed" required>
               </div>
-              <div class="address-wrapper">
-                <b class="address">Address</b>
+              <div class="form-group">
+                  <input type="email" id="email" placeholder="Ex. alikil1235@gmail.com" required>
               </div>
-              <div class="level-1-block1">
-                Level 1, Block 2330, Century Square, Jalan Usahawan, Off
-                Persiaran Multimedia, Cyberjaya, 63000, Selangor, Malaysia
+              <div class="form-group">
+                  <textarea id="message" rows="4" placeholder="Type your message here" required></textarea>
               </div>
-            </div>
-            <div class="frame-parent1">
-              <div class="contact-icons">
-                <img
-                  class="mingcutelocation-line-icon"
-                  loading="lazy"
-                  alt=""
-                  src="../public/icoutlineemail.svg"
-                />
-              </div>
-              <div class="frame-parent2">
-                <div class="address-wrapper">
-                  <b class="mail">Mail</b>
-                </div>
-                <div class="examplegmailcom">Example@gmail.com</div>
-              </div>
-            </div>
-            <div class="contact-icons-parent">
-              <div class="contact-icons">
-                <img
-                  class="mingcutelocation-line-icon"
-                  loading="lazy"
-                  alt=""
-                  src="../public/phphone.svg"
-                />
-              </div>
-              <div class="phone-number-wrapper">
-                <b class="phone-number">Phone number</b>
-              </div>
-              <div class="level-1-block1">014-80881773</div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="form-container">
-        <div class="form-fields">
-          <div class="name-fields">
-            <div class="first-name-field">
-              <div class="first-name-input">
-                <div class="first-name-label">
-                  <div class="first-name-example">
-                    <div class="first-name-placeholder">
-                      <div class="email-field">
-                        <div class="email-input">
-                          <div class="email-label">
-                            <div class="email-example">
-                              <div class="frist-name">Frist Name</div>
-                            </div>
-                            <div class="email-placeholder-container">
-                              <div
-                                class="email-placeholder-container-child"
-                              ></div>
-                              <input
-                                class="ex-ali"
-                                placeholder="Ex. Ali"
-                                type="text"
-                              />
-                            </div>
-                          </div>
-                          <div class="email-example">
-                            <div class="email">Email</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="last-name-label">
-                        <div class="email-example">
-                          <div class="frist-name">Last Name</div>
-                        </div>
-                        <div class="last-name-placeholder-containe">
-                          <div class="email-placeholder-container-child"></div>
-                          <div class="ex-mohammed">Ex. Mohammed</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="email-input-container">
-                      <div class="email-input-container-child"></div>
-                      <input
-                        class="ex-alikl1235gmailcom"
-                        placeholder="Ex. alikl1235@gmail.com"
-                        type="text"
-                      />
-                    </div>
-                  </div>
-                  <div class="message-fields">
-                    <div class="message-label-container">
-                      <div class="what-we-can">What we can help you with?</div>
-                    </div>
-                    <textarea
-                      class="message-input-container"
-                      placeholder="Type your message here"
-                      rows="{17}"
-                      cols="{28}"
-                    >
-                    </textarea>
-                  </div>
-                  <button class="button6">
-                    <div class="sign-up4">Send</div>
-                  </button>
-                </div>
-              </div>
-              <div class="footer">
-                <div class="message-us-wrapper">
-                  <h1 class="message-us">Message Us</h1>
-                </div>
-                <div class="message-divider"></div>
-              </div>
-            </div>
-          </div>
-          <footer class="group-footer">
-            <div class="frame-child2"></div>
-            <div class="info-container">
-              <div class="content-block">
-                <img
-                  class="content-block-child"
-                  loading="lazy"
-                  alt=""
-                  src="../public/group-9@2x.png"
-                />
+              <button type="submit" class="send-button">Send</button>
+          </form>
+      </div>
 
-                <div class="description-block">
-                  <div class="ex-mohammed">
-                    <p class="in-god-we1">
-                      In God we trust because im the king of FRICA
-                    </p>
-                    <p class="ergknrgin-wqegn-pwngpngpnpi1">
-                      ERGKNRGIN WQEGN PWNGPNGPNPI N4NI3
-                    </p>
-                  </div>
-                  <div class="social-media-icons1">
-                    <div class="rectangle-parent2">
-                      <div class="frame-child3"></div>
-                      <img
-                        class="teenyiconstwitter-solid1"
-                        loading="lazy"
-                        alt=""
-                        src="../public/teenyiconstwittersolid.svg"
-                      />
-                    </div>
-                    <div class="rectangle-parent2">
-                      <div class="frame-child3"></div>
-                      <img
-                        class="mdiinstagram-icon1"
-                        loading="lazy"
-                        alt=""
-                        src="../public/mdiinstagram.svg"
-                      />
-                    </div>
-                    <div class="rectangle-parent2">
-                      <div class="frame-child3"></div>
-                      <img
-                        class="bifacebook-icon1"
-                        loading="lazy"
-                        alt=""
-                        src="../public/bifacebook.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="support-block">
-                <div class="support-content1">
-                  <div class="support-details">
-                    <div class="supported-by1">Supported By</div>
-                  </div>
-                  <div class="logo-container">
-                    <div class="cyberview-logo">
-                      <img
-                        class="cyberview-logo-rgb-icon1"
-                        loading="lazy"
-                        alt=""
-                        src="../public/cyberviewlogorgb@2x.png"
-                      />
-                    </div>
-                    <img
-                      class="mdec-logo-icon1"
-                      loading="lazy"
-                      alt=""
-                      src="../public/mdeclogo@2x.png"
-                    />
-                  </div>
-                </div>
-                <div class="links-block">
-                  <div class="more-links-container">
-                    <div class="more-links2">More links</div>
-                  </div>
-                  <div class="contact-us-container">
-                    <div class="more-links2">Contact us</div>
-                    <div class="faq-container">
-                      <div class="faq-link1">
-                        <div class="faq3">FAQ</div>
-                      </div>
-                      <img
-                        class="faq-icon1"
-                        loading="lazy"
-                        alt=""
-                        src="../public/vector-1.svg"
-                      />
-                    </div>
-                  </div>
-                  <div class="investors1">Investors</div>
-                  <div class="tc1">T&C</div>
-                </div>
-              </div>
-              <div class="contact-block">
-                <div class="supported-by1">Contact Info</div>
-                <div class="contact-info-details">
-                  <div class="contact-methods1">
-                    <div class="contact-icons-container">
-                      <div class="icons-and-labels">
-                        <img
-                          class="material-symbolsmail-icon1"
-                          alt=""
-                          src="../public/materialsymbolsmail.svg"
-                        />
+      <!-- Image Container -->
+      <div class="image-container">
+          <img src="../assets/Contact us.png" alt="Customer Support">
+      </div>
+  </div>
+</section>
 
-                        <div class="hellodoosmy1">hello@doos.my</div>
-                      </div>
-                      <div class="icons-and-labels">
-                        <img
-                          class="material-symbolsmail-icon1"
-                          alt=""
-                          src="../public/iconoirphonesolid.svg"
-                        />
+<!--this section is the last part which is used for the footer-->
 
-                        <div class="hellodoosmy1">+60 148095166</div>
-                      </div>
-                    </div>
-                    <div class="level-1-block2">
-                      Level 1, Block 2330, Century Square, Jalan Usahawan, Off
-                      Persiaran Multimedia, Cyberjaya, 63000, Selangor, Malaysia
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="horizontal-rule-wrapper">
-              <img class="horizontal-rule-icon" loading="lazy" alt="" />
-            </div>
-            <div class="copyright-block">
-              <div class="copyright-content2">
-                <div class="made-by-luai1">Made by Luai</div>
-                <div class="vector-wrapper">
-                  <img
-                    class="vector-icon1"
-                    loading="lazy"
-                    alt=""
-                    src="../public/vector-2.svg"
-                  />
-                </div>
-                <div class="last-name-container">
-                  <div class="ebrahim1">& Ebrahim</div>
-                </div>
-                <div class="vector-wrapper">
-                  <img
-                    class="vector-icon1"
-                    loading="lazy"
-                    alt=""
-                    src="../public/vector-2.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </footer>
-        </div>
-        <div class="image-wrapper">
-          <img
-            class="image-4-icon"
-            loading="lazy"
-            alt=""
-            src="../public/image-4@2x.png"
-          />
-        </div>
-      </section>
-    </div>
-  </body>
+<footer>
+  <div class="container">
+      <div class="logo">
+          <a href="#">
+              <img src="../assets/Doos logo.png" alt="Logo">
+          </a>
+          <p>In God we trust because I'm the king of FRICA</p>
+          <div class="social">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-twitter"></a>
+          </div>
+      </div>
+      <div class="supported">
+          <h3>Supported by</h3>
+          <ul>
+              <li><img src="../assets/cyberview logo.png" alt="Support 1" width="100px"></li>
+              <li><img src="../assets/mdec logo.png" alt="Support 2" width="100px"></li>
+          </ul>
+      </div>
+      <div class="links">
+          <h3>Helpful Links</h3>
+          <ul>
+              <li><a href="../Contact_Page/contact.html">Contact Us</a></li>
+              <li><a href="../FAQ_page/faq.HTML">FAQ</a></li>
+              <li><a href="../Invest_Form_Page/invest_form.HTML">Investors</a></li>
+              <li><a href="#">T&C</a></li>
+          </ul>
+      </div>
+      <div class="contact">
+          <h3>Contact Us</h3>
+          <ul>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:hello@doos.my">hello@doos.my</a></li>
+              <li><i class="fas fa-phone"></i> <a href="tel:+60148095166">+60 148095166</a></li>
+              <li><i class="fas fa-map-marker-alt"></i> Level 1, Block 2330, Century Square, Jalan Usahawan, Off
+                  Persiaran Multimedia, Cyberjaya, 63000, Selangor, Malaysia</li>
+          </ul>
+      </div>
+  </div>
+  <div class="copyright">
+      <p>&copy; 2024 DOOS. All rights reserved. <a href="#">Terms & Conditions</a> <a href="#"> . Privacy
+              Policy</a></p>
+  </div>
+  <!-- New section for LinkedIn icons and names -->
+  <div class="credits">
+      <a href="https://www.linkedin.com/in/luai-linkedin" target="_blank" class="credit-item">
+          <span class="text">Made By</span>
+          <i class="fab fa-linkedin"></i>
+          <span class="name">Luai</span>
+      </a>
+      <a href="https://www.linkedin.com/in/ebriham-linkedin" target="_blank" class="credit-item">
+          <i class="fab fa-linkedin"></i>
+          <span class="name"> Ebriham</span>
+      </a>
+  </div>
+</footer>
+
+</body>
+
 </html>
