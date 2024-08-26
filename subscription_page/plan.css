@@ -1,6 +1,7 @@
 @import url('http//fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-body {
+
+  body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
   }
@@ -11,7 +12,6 @@ body {
     align-items: center;
     background-color: #fff;
     padding: 10px 20px;
-    
   }
   .logo {
     margin-left: 70px; 
@@ -26,12 +26,11 @@ body {
     list-style: none;
     padding: 0;
     display: flex;
-    margin-left: 100px;
+    margin-left: 400px;
   }
   
   nav ul li {
     margin: 0 15px;
-
   }
   
   nav ul li a {
@@ -41,6 +40,45 @@ body {
     font-size: 18px;
     padding-bottom: 5px;
     display: inline-block;
+  }
+  
+  nav ul li a.active {
+    color: rgb(155, 57, 57);
+    border-bottom: 3px solid red;
+    padding-bottom: 3px;
+    width: 105%;
+    border-radius: 10px;
+  }
+  
+  .button-1 {
+    background: linear-gradient(to bottom, #7DA2F9 0%, #5C8DF6 100%); 
+    border: none; 
+    border-radius: 10px; 
+    color: white; 
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px; 
+    font-weight: 50; 
+    padding: 10px 35px; 
+    text-align: center; 
+    text-decoration: none;
+    transition: all 0.2s ease-in-out; 
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .button-1:hover {
+    background: linear-gradient(to bottom, #698EEF 0%, #4A6FDD 100%); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .button-1:active {
+    background: linear-gradient(to bottom, #5577D4 0%, #3B5DB9 100%); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transform: translateY(1px); 
   }
   
   .slider {
@@ -187,48 +225,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Left section code*/ 
-
-.left-section{
-  float: left;
-  padding: 20px;
-}
-
-.car-specs {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.specs-row {
-  
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.spec-item {
-  width: 45%;
-  margin-bottom: 20px;
-}
-
-.spec-title {
-  display: block;
-  font-weight: 600;
-  color: #333;
-}
-
-.spec-detail {
-  display: block;
-  font-weight: 400;
-  color: #555;
-  margin-top: 5px;
-}
-
-/* Additional Styling for alignment and spacing */
-@media (max-width: 768px) {
-  .spec-item {
-      width: 100%;
-  }
-}
 
 /* From Uiverse.io by escannord */ 
 .radio-input input {
@@ -363,6 +359,174 @@ body {
 
 .next-button button:hover {
   background-color: #c0392b;
+}
+
+footer {
+  background-color: #1A202C;
+  padding: 50px 0;
+  color: #fff; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; 
+}
+
+.logo {
+  width: 25%;
+  padding: 0 15px; 
+  text-align: left;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.supported, .links, .contact {
+  width: 25%;
+  padding: 0 15px; 
+}
+
+.supported ul {
+  list-style: none;
+  padding: 0;
+}
+
+.supported ul li {
+  margin-bottom: 10px;
+}
+
+.links ul, .contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links ul li, .contact ul li {
+  margin-bottom: 10px;
+}
+
+.supported ul li img {
+  width: 50%; 
+  max-width: 200px; 
+  height: auto; 
+}
+
+
+.links ul li a, .contact ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links ul li a:hover, .contact ul li a:hover {
+  text-decoration: underline;
+  color: #38B2AC;
+}
+
+.social {
+  margin-top: 15px; 
+}
+
+.social a {
+  color: #38B2AC;
+  font-size: 25px; 
+  margin-right: 15px; 
+}
+
+.social a:last-child {
+  margin-right: 0; 
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
+  color: #38B2AC;
+}
+
+/* Responsive for smaller screens */
+@media screen and (max-width: 992px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center; 
+  }
+
+  .logo, .supported, .links, .contact {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0; 
+  }
+}
+
+/* Style for the credits section */
+.credits {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.credit-item {
+  color: #fff; 
+  text-decoration: none; 
+  display: inline-flex; 
+  align-items: center; 
+  margin: 0 15px; 
+}
+
+.credit-item i {
+  margin-right: 8px; 
+  font-size: 16px; 
+  transition: color 0.3s ease; 
+}
+
+.credit-item .text {
+  color: #fff; 
+  margin-right: 8px; 
+  transition: color 0.3s ease; 
+}
+
+.credit-item .name {
+  color: #fff; 
+  transition: color 0.3s ease; 
+}
+
+.credit-item:hover i {
+  color: #38B2AC; 
+}
+
+.credit-item:hover .text,
+.credit-item:hover .name {
+  color: #38B2AC; 
+}
+
+.credit-item:hover {
+  text-decoration: underline; 
+}
+
+.credit-item:first-child {
+  margin-left: 0;
+}
+
+.credit-item:last-child {
+  margin-right: 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+  .credits {
+    font-size: 12px; 
+  }
 }
 
  
