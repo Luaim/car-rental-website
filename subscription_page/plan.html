@@ -29,7 +29,7 @@
             <button class="button-1">Sign Up</button>
         </div>
     </header>
-    <section>
+    <section class>
         <div class="slider">
             <div class="list">
                 <div class="item">
@@ -64,122 +64,126 @@
 
         <script src="./plan.js"></script>
     </section>
-<!-- THE SECTION USED FOR THE PART UNDER THE IMAGES FOR THE CAR DETAILS -->
-<section class="subscription-details">
-    <div class="plan-options">
-        <h2>JAECOO J7 1.6T AWD 2024</h2>
-        <div class="details">
-            <span class="stars">
-                <!-- Star icons (use Font Awesome) -->
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </span>
-            <span class="separator">•</span>
-            <span class="km">500 KM</span>
-            <span class="separator">•</span>
-            <span class="badge promo">PROMO</span>
-            <span class="badge new">NEW</span>
-            <span class="badge pre-book">PRE-BOOK</span>
+    <!-- THE SECTION USED FOR THE PART UNDER THE IMAGES FOR THE CAR DETAILS -->
+    <section class="subscription-details">
+        <div class="plan-options">
+            <h2>JAECOO J7 1.6T AWD 2024</h2>
+            <div class="details">
+                <span class="stars">
+                    <!-- Star icons (use Font Awesome) -->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="separator">•</span>
+                <span class="km">500 KM</span>
+                <span class="separator">•</span>
+                <span class="badge promo">PROMO</span>
+                <span class="badge new">NEW</span>
+                <span class="badge pre-book">PRE-BOOK</span>
+            </div>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Subscribe for 12 - 36 months and swap cars when you want</li>
+                <li><i class="fas fa-check-circle"></i> Insurance, road tax, maintenance & Concierge included</li>
+                <li><i class="fas fa-check-circle"></i> No down payment and approval in 24 hours</li>
+            </ul>
+            <div class="promotions">
+                <div class="promotion">
+                    <i class="fas fa-tag"></i> Promotion Applied: 50% OFF for your 1st month
+                </div>
+                <div class="deal">
+                    <i class="fas fa-fire"></i> Hot Deal: This listing is at least 15% below market price
+                </div>
+                <div class="pre-book">
+                    <i class="fas fa-clock"></i> Pre-Book listing: This vehicle may take more than 7 days to deliver
+                </div>
+                <div class="delivery">
+                    <i class="fas fa-truck"></i> Free delivery to Kuala Lumpur, Penang & Johor
+                </div>
+            </div>
+
+
+
+
         </div>
-        <ul>
-            <li><i class="fas fa-check-circle"></i> Subscribe for 12 - 36 months and swap cars when you want</li>
-            <li><i class="fas fa-check-circle"></i> Insurance, road tax, maintenance & Concierge included</li>
-            <li><i class="fas fa-check-circle"></i> No down payment and approval in 24 hours</li>
-        </ul>
-        <div class="promotions">
-            <div class="promotion">
-                <i class="fas fa-tag"></i> Promotion Applied: 50% OFF for your 1st month
+        <div class="pricing-container">
+            <p class="pricing-header">
+                <span class="highlighted-price">RM 1,755</span>/month for your 1st month
+            </p>
+            <p class="next-month">then RM 3,510/month</p>
+
+            <div class="subscription-plan">
+                <h3>SUBSCRIPTION PLAN</h3>
+
+                <div class="radio-input">
+                    <input type="radio" id="plan1" name="subscription" value="36-months">
+                    <label for="plan1">
+                        <span class="text">
+                            <span class="circle"></span>
+                            36 months
+                        </span>
+                        <span class="price">
+                            RM 1240/mo
+                            <small class="small">RM 1240 billed every month</small>
+                        </span>
+                    </label>
+
+                    <input type="radio" id="plan2" name="subscription" value="24-months" checked>
+                    <label for="plan2">
+                        <span class="text">
+                            <span class="circle"></span>
+                            24 Months
+                        </span>
+                        <span class="price">
+                            RM 1350/mo
+                            <small class="small">RM 1350 billed once a month</small>
+
+                        </span>
+                    </label>
+
+                    <input type="radio" id="plan3" name="subscription" value="12-months">
+                    <label for="plan3">
+                        <span class="text">
+                            <span class="circle"></span>
+                            12 Months
+                        </span>
+                        <span class="price">
+                            RM 1500/mo
+                            <small class="small">RM 1500 billed every month</small>
+                        </span>
+                    </label>
+
+                    <input type="radio" id="plan4" name="subscription" value="1-month">
+                    <label for="plan4">
+                        <span class="text">
+                            <span class="circle"></span>
+                            1 Month
+                        </span>
+                        <span class="price">
+                            RM 300/mo
+                            <small class="small">RM 300 billed every month</small>
+                        </span>
+                    </label>
+                </div>
             </div>
-            <div class="deal">
-                <i class="fas fa-fire"></i> Hot Deal: This listing is at least 15% below market price
+
+            <div class="mileage-plan">
+                <h3>MILEAGE PER MONTH</h3>
+                <div class="dropdown-container">
+                    <select>
+                        <option value="lite-1250km">Lite 1250KM Free</option>
+                    </select>
+                </div>
             </div>
-            <div class="pre-book">
-                <i class="fas fa-clock"></i> Pre-Book listing: This vehicle may take more than 7 days to deliver
-            </div>
-            <div class="delivery">
-                <i class="fas fa-truck"></i> Free delivery to Kuala Lumpur, Penang & Johor
-            </div>
-        </div>
-    </div>
-    <div class="pricing-container">
-        <p class="pricing-header">
-            <span class="highlighted-price">RM 1,755</span>/month for your 1st month
-        </p>
-        <p class="next-month">then RM 3,510/month</p>
-    
-        <div class="subscription-plan">
-            <h3>SUBSCRIPTION PLAN</h3>
-    
-            <div class="radio-input">
-                <input type="radio" id="plan1" name="subscription" value="36-months">
-                <label for="plan1">
-                    <span class="text">
-                        <span class="circle"></span>
-                        36 months
-                    </span>
-                    <span class="price">
-                        RM 1240/mo
-                        <small class="small">RM 1240 billed every month</small>
-                    </span>
-                </label>
-    
-                <input type="radio" id="plan2" name="subscription" value="24-months" checked>
-                <label for="plan2">
-                    <span class="text">
-                        <span class="circle"></span>
-                        24 Months
-                    </span>
-                    <span class="price">
-                        RM 1350/mo
-                        <small class="small">RM 1350 billed once a month</small>
-                        <span class="info">save up to 50%</span>
-                    </span>
-                </label>
-    
-                <input type="radio" id="plan3" name="subscription" value="12-months">
-                <label for="plan3">
-                    <span class="text">
-                        <span class="circle"></span>
-                        12 Months
-                    </span>
-                    <span class="price">
-                        RM 1500/mo
-                        <small class="small">RM 1500 billed every month</small>
-                    </span>
-                </label>
-    
-                <input type="radio" id="plan4" name="subscription" value="1-month">
-                <label for="plan4">
-                    <span class="text">
-                        <span class="circle"></span>
-                        1 Month
-                    </span>
-                    <span class="price">
-                        RM 300/mo
-                        <small class="small">RM 300 billed every month</small>
-                    </span>
-                </label>
+
+            <div class="next-button">
+                <button type="button">NEXT</button>
             </div>
         </div>
-    
-        <div class="mileage-plan">
-            <h3>MILEAGE PER MONTH</h3>
-            <div class="dropdown-container">
-                <select>
-                    <option value="lite-1250km">Lite 1250KM Free</option>
-                </select>
-            </div>
-        </div>
-    
-        <div class="next-button">
-            <button type="button">NEXT</button>
-        </div>
-    </div>    
-    
-</section>
+
+    </section>
 
     <!-- Footer Section -->
     <footer>
