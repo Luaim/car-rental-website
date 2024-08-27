@@ -160,67 +160,259 @@ nav ul li a.active {
     height: 400px;
   }
 }
-/* THE SECTION USED FOR THE PART UNDER THE IMAGES FOR THE CAR DETAILS*/
 
+/* THE SECTION USED FOR THE PART UNDER THE IMAGES FOR THE CAR DETAILS*/
 .subscription-details {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f4f4f4; /* Light grey background */
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.plan-options h2 {
-  color: #333;
+.plan-options {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.details {
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.stars i {
+  color: #f39c12;
+  margin-right: 5px;
+}
+
+.separator {
+  margin: 0 10px;
+}
+
+.km {
+  margin-right: 10px;
+}
+
+.badge {
+  background-color: #5c8df6;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-right: 5px;
+  font-size: 12px;
   font-weight: bold;
 }
 
-.plan-options p {
-  color: #666;
-  font-size: 16px;
+.badge.promo {
+  background-color: #28a745;
+}
+
+.badge.new {
+  background-color: #007bff;
+}
+
+.badge.pre-book {
+  background-color: #ffc107;
 }
 
 .plan-options ul {
   list-style-type: none;
   padding: 0;
+  font-size: 14px;
 }
 
 .plan-options ul li {
   margin-bottom: 10px;
-  font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 
-.promotions .promotion, .promotions .deal, .promotions .pre-book, .promotions .delivery {
-  background-color: #e0e0e0; /* Lighter grey for promo backgrounds */
+.plan-options ul li i {
+  color: #28a745;
+  margin-right: 10px;
+}
+
+.promotions .promotion,
+.promotions .deal,
+.promotions .pre-book,
+.promotions .delivery {
+  background-color: #e0e0e0;
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
-.pricing .price-summary {
-  border: 1px solid #ccc;
+.promotions .promotion i,
+.promotions .deal i,
+.promotions .pre-book i,
+.promotions .delivery i {
+  margin-right: 10px;
+  color: #333;
+}
+
+.pricing-container {
+  flex: 1;
+  border: 1px solid #ddd;
   padding: 20px;
-  border-radius: 5px;
+  max-width: 400px; /* Reduced width */
+  margin-left: 20px; /* Space between the cards */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.subscription-length, .mileage-option {
+.pricing-header {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.highlighted-price {
+  color: #00b894;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.next-month {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.subscription-plan h3, .mileage-plan h3 {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.radio-input input {
+  display: none;
+}
+
+.radio-input label {
+  --border-color: #ddd;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  margin: 10px 0; /* Reduce margin to make the items closer */
+  padding: 10px; /* Reduced padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.radio-input input:checked + label {
+  --border-color: #2f64d8;
+  border-color: var(--border-color);
+  border-width: 2px;
+  background-color: #f0f8ff;
+}
+
+.radio-input label:hover {
+  --border-color: #2f64d8;
+  border-color: var(--border-color);
+}
+
+.radio-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(189, 187, 207);
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.radio-input input:checked + label span.circle::before {
+  content: "";
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2f64d8;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-weight: bold;
+}
+
+.small {
+  font-size: 10px;
+  color: rgb(136, 138, 139);
+  font-weight: 100;
+}
+
+.info {
+  position: absolute;
+  display: inline-block;
+  font-size: 11px;
+  background-color: #1fec7b;
+  border-radius: 20px;
+  padding: 1px 9px;
+  top: 0;
+  transform: translateY(-50%);
+  right: 5px;
+  color: #fff;
+}
+
+.dropdown-container {
   width: 100%;
-  margin: 10px 0;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.next-btn {
-  background-color: #ff0000; /* Bright red */
-  color: white;
-  border: none;
-  padding: 10px 20px;
+.dropdown-container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
   cursor: pointer;
 }
 
+.next-button button {
+  width: 100%;
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
 
-
-
-
-
-
+.next-button button:hover {
+  background-color: #c0392b;
+}
 
 
 /*this section is for the footer*/
