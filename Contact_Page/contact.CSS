@@ -164,57 +164,59 @@ nav ul li a.active {
 /* Message Us Section  the part under the card contact info*/
 .message-section {
   padding: 50px 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .message-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
   padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .form-container {
-  width: 100%;
+  width: 50%; 
+  padding-right: 50px; 
 }
 
 .form-container h2 {
-  font-size: 35px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-size: 32px; 
+  font-weight: 600; 
   margin-bottom: 10px;
-  text-align: left;
 }
 
 .message-underline {
-  width: 120px;
+  width: 130px; 
   height: 4px;
-  background-color: red;
-  border-radius: 2px;
+  background-color: rgb(200, 23, 23);
   margin-bottom: 20px;
+  border-radius: 2px;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .two-column {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .input-group {
-  display: flex;
-  flex-direction: column; 
   width: 48%; 
 }
+
 .form-group label {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'sans-serif';
   font-weight: bold;
+  color: #333;
   margin-bottom: 5px;
-  font-size: 16px; 
-  color: #1d1d1d; 
 }
 
 .form-group input[type="text"],
@@ -222,38 +224,25 @@ nav ul li a.active {
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   border-radius: 5px;
-}
-
-.form-group input[type="text"]:nth-child(1) {
-  margin-right: 10px; 
-}
-
-.form-group input[type="text"]:nth-child(2) {
-  margin-right: 0; 
+  font-family: 'sans-serif'; 
 }
 
 textarea {
-  resize: none;
+  height: 140px; 
 }
 
 .send-button {
-  background-color: rgb(209, 26, 26);
+  background-color: #ff4b2b;
   color: white;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
-  font-size: 16px;
+  width: 100%;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  transition: background-color 0.3s ease;
-  width: 98%;
-  
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 .send-button:hover {
@@ -261,16 +250,18 @@ textarea {
 }
 
 .image-container {
-  width: 45%;
+  width: 50%; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image-container img {
-  max-width: 100%;
-  border-radius: 10px;
+  width: auto; 
+  max-width: 100%; 
+  height: auto;
 }
+
 
 /*this section is for the footer*/
 footer {
