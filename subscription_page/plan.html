@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscription Plan Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./plan.css">
 </head>
+
 <body>
 
     <header>
@@ -26,127 +29,138 @@
             <button class="button-1">Sign Up</button>
         </div>
     </header>
+    <section>
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="../assets/Tesla Model X.png" alt="Tesla Model X">
+                </div>
+                <div class="item">
+                    <img src="../assets/tesla-2.jpeg" alt="Tesla Model X">
+                </div>
+                <div class="item">
+                    <img src="../assets/tesla-3.jpeg" alt="Tesla Model X">
+                </div>
+                <div class="item">
+                    <img src="../assets/tesla-4.jpeg" alt="Tesla Model X">
+                </div>
+                <div class="item">
+                    <img src="../assets/tesla-5.jpeg" alt="Tesla Model X">
+                </div>
+                <!-- Repeat the above item div as needed -->
+            </div>
+            <div class="buttons">
+                <button id="prev">&lt;</button>
+                <button id="next">&gt;</button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
 
-    <div class="slider">
-        <div class="list">
-            <div class="item">
-                <img src="../assets/Tesla Model X.png" alt="Tesla Model X">
-            </div>
-            <div class="item">
-                <img src="../assets/tesla-2.jpeg" alt="Tesla Model X">
-            </div>            <div class="item">
-                <img src="../assets/tesla-3.jpeg" alt="Tesla Model X">
-            </div>            <div class="item">
-                <img src="../assets/tesla-4.jpeg" alt="Tesla Model X">
-            </div>            <div class="item">
-                <img src="../assets/tesla-5.jpeg" alt="Tesla Model X">
-            </div>
-            <!-- Repeat the above item div as needed -->
-        </div>
-        <div class="buttons">
-            <button id="prev">&lt;</button>
-            <button id="next">&gt;</button>
-        </div>
-        <ul class="dots">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <script src="./plan.js"></script>
+    </section>
+<!-- THE SECTION USED FOR THE PART UNDER THE IMAGES FOR THE CAR DETAILS -->
+<section class="subscription-details">
+    <div class="plan-options">
+        <h2>JAECOO J7 1.6T AWD 2024</h2>
+        <p>500 KM • Promo • New • Pre-Book • Buy</p>
+        <ul>
+            <li>Subscribe for 12 - 36 months and swap cars when you want</li>
+            <li>Insurance, road tax, maintenance & Concierge included</li>
+            <li>No down payment and approval in 24 hours</li>
         </ul>
+        <div class="promotions">
+            <div class="promotion">50% OFF for your 1st month</div>
+            <div class="deal">This listing is at least 15% below market price</div>
+            <div class="pre-book">This vehicle may take more than 7 days to deliver</div>
+            <div class="delivery">Free delivery to Kuala Lumpur, Penang & Johor</div>
+        </div>
     </div>
-
-    <script src="./plan.js"></script>
-
-    <div class="car-info">
-        <span class="brand">Tesla</span>
-        <span class="model">Model Y 2.0</span>
-        <span class="year">2024</span>
+    <div class="pricing">
+        <div class="price-summary">
+            <p><strong>RM 1,980/month</strong> for your 1st month then RM 3,960/month</p>
+            <select class="subscription-length">
+                <option value="36">36 Months</option>
+                <option value="24">24 Months</option>
+                <option value="12">12 Months</option>
+            </select>
+            <select class="mileage-option">
+                <option value="1250">Lite - 1,250KM</option>
+            </select>
+            <button class="next-btn">NEXT</button>
+        </div>
     </div>
+</section>
 
-    <div class="sections">
-        <div class="right-section">
-            <div class="pricing-container">
-                <div class="pricing-details">
-                    <div class="pricing-header">
-                        <span class="highlighted-price">RM 1,755</span>/month for your 1st month
-                        <p class="next-month">then RM 3,510/month</p>
-                    </div>
 
-                    <div class="subscription-plan">
-                        <h3>SUBSCRIPTION PLAN</h3>
-                        <div class="radio-input">
-                            <input value="value-1" name="value-radio" id="value-1" type="radio" />
-                            <label for="value-1">
-                                <div class="text">
-                                    <span class="circle"></span>
-                                    36 months
-                                </div>
-                                <div class="price">
-                                    <span>RM 1240/mo</span>
-                                    <span class="small">RM 1240 billed every month</span>
-                                </div>
-                            </label>
 
-                            <input value="value-2" name="value-radio" id="value-2" type="radio" />
-                            <label for="value-2">
-                                <div class="text">
-                                    <span class="circle"></span>
-                                    24 Months
-                                </div>
-                                <div class="price">
-                                    <span>RM 1350/mo</span>
-                                    <span class="small">RM 1350 billed once a month</span>
-                                </div>
-                                <span class="info">save up to 50%</span>
-                            </label>
 
-                            <input value="value-3" name="value-radio" id="value-3" type="radio" />
-                            <label for="value-3">
-                                <div class="text">
-                                    <span class="circle"></span>
-                                    12 Months
-                                </div>
-                                <div class="price">
-                                    <span>RM 1500/mo</span>
-                                    <span class="small">RM 1500 billed every month</span>
-                                </div>
-                            </label>
 
-                            <input value="value-4" name="value-radio" id="value-4" type="radio" />
-                            <label for="value-4">
-                                <div class="text">
-                                    <span class="circle"></span>
-                                    1 Month
-                                </div>
-                                <div class="price">
-                                    <span>RM 300/mo</span>
-                                    <span class="small">RM 300 billed every month</span>
-                                </div>
-                            </label>
-                        </div>
-                    </div>
 
-                    <div class="mileage-plan">
-                        <h3>MILEAGE PER MONTH</h3>
-                        <div class="dropdown-container">
-                            <select id="mileage-options" name="mileage-plan">
-                                <option value="lite">Lite 1250KM <span>Free</span></option>
-                                <option value="standard">Standard 2000KM - +RM1250</option>
-                            </select>
-                        </div>
-
-                        <div class="next-button">
-                            <button>NEXT</button>
-                        </div>
-                    </div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="../assets/Doos logo.png" alt="Logo">
+                </a>
+                <p>In God we trust because I'm the king of FRICA</p>
+                <div class="social">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
                 </div>
             </div>
+            <div class="supported">
+                <h3>Supported by</h3>
+                <ul>
+                    <li><img src="../assets/cyberview logo.png" alt="Support 1" width="100px"></li>
+                    <li><img src="../assets/mdec logo.png" alt="Support 2" width="100px"></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Helpful Links</h3>
+                <ul>
+                    <li><a href="../Contact_Page/contact.html">Contact Us</a></li>
+                    <li><a href="../FAQ_page/faq.HTML">FAQ</a></li>
+                    <li><a href="../Invest_Form_Page/invest_form.HTML">Investors</a></li>
+                    <li><a href="#">T&C</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:hello@doos.my">hello@doos.my</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+60148095166">+60 148095166</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> Level 1, Block 2330, Century Square, Jalan
+                        Usahawan, Off
+                        Persiaran Multimedia, Cyberjaya, 63000, Selangor, Malaysia</li>
+                </ul>
+            </div>
         </div>
-
-        
-        
-
+        <div class="copyright">
+            <p>&copy; 2024 DOOS. All rights reserved. <a href="#">Terms & Conditions</a> <a href="#"> . Privacy
+                    Policy</a></p>
+        </div>
+        <!-- New section for LinkedIn icons and names -->
+        <div class="credits">
+            <a href="https://www.linkedin.com/in/luai-linkedin" target="_blank" class="credit-item">
+                <span class="text">Made By</span>
+                <i class="fab fa-linkedin"></i>
+                <span class="name">Luai</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ebriham-linkedin" target="_blank" class="credit-item">
+                <i class="fab fa-linkedin"></i>
+                <span class="name"> Ebriham</span>
+            </a>
+        </div>
+    </footer>
 
 </body>
+
 </html>
