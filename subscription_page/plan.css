@@ -331,13 +331,12 @@ nav ul li a.active {
   }
 }
 
-
 .pricing-container {
   flex: 1;
   border: 1px solid #ddd;
   padding: 20px;
-  max-width: 400px; /* Reduced width */
-  margin-left: 20px; /* Space between the cards */
+  max-width: 400px; 
+  margin-left: 20px; 
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -376,8 +375,8 @@ nav ul li a.active {
   --border-color: #ddd;
   border: 1px solid var(--border-color);
   border-radius: 6px;
-  margin: 10px 0; /* Reduce margin to make the items closer */
-  padding: 10px; /* Reduced padding */
+  margin: 10px 0; 
+  padding: 10px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
