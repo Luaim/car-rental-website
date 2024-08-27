@@ -91,6 +91,7 @@ nav ul li a.active {
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   position: relative;
   overflow: hidden;
   border-radius: 5px;
@@ -259,6 +260,14 @@ nav ul li a.active {
   display: flex; /* Flexbox layout for alignment */
   align-items: center; /* Center items vertically */
   width: 80%;
+  background-color: #f0f0f0; 
+  padding: 10px 20px; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 80%; 
 }
 
 .promotions .promotion i,
