@@ -523,6 +523,61 @@ nav ul li a.active {
   }
 }
 
+/* This is for the HOW TO SUBSCRIBE SECTION */
+
+.how-to-subscribe {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+
+.how-to-subscribe h2 {
+  font-family: Arial, sans-serif;
+  font-size: 20px; /* Smaller font size */
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Reduced gap */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.step {
+  width: 25%; /* Smaller width */
+  max-width: 200px; /* Optional: max width for better control */
+}
+
+.step h3 {
+  font-size: 24px; /* Smaller font size */
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  width: 40px; /* Smaller circle */
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.step h4 {
+  font-size: 16px; /* Smaller font size */
+  margin-bottom: 5px;
+}
+
+.step p {
+  font-size: 12px; /* Smaller font size */
+  line-height: 1.4;
+  margin: 0;
+  padding: 0 5px; /* Reduced padding */
+}
+
+
+
 .pricing-container {
   flex: 1;
   border: 1px solid #ddd;
@@ -558,6 +613,8 @@ nav ul li a.active {
   color: #333;
   margin-bottom: 10px;
 }
+
+
 
 /*This is for the radio button */
 
