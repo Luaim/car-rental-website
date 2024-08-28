@@ -403,6 +403,125 @@ nav ul li a.active {
   color: #777; /* Lighter text for the inspection date */
 }
 
+/*  this section for the comparison table the part under the tabs content */
+.comparison-section {
+  margin-top: 40px;
+  max-width: 1200px;
+  margin: 12 auto;
+  text-align: left;
+}
+
+.comparison-box {
+  border: 1px solid #ddd;  
+  border-radius: 15px; 
+  padding: 20px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); 
+  background-color: #ffffff;  
+}
+
+.comparison-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.comparison-box p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.comparison-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; 
+  background-color: #2f4f4f;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 15px 15px 0 0;
+  text-align: center; 
+}
+
+.detail-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr; 
+  align-items: center;  
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center; 
+}
+
+.detail-row:last-child {
+  border-bottom: none; 
+}
+
+.detail-row span {
+  color: #333;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* Align the included items to the left */
+.included-item {
+  text-align: left;
+  padding-left: 10px;
+  display: flex; 
+  align-items: center; 
+}
+
+/* Align icons under Loan and Doos */
+.not-included, .included {
+  text-align: center;  
+  font-size: 18px;  
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.not-included {
+  color: red;
+  font-weight: bold;
+}
+
+.included {
+  color: green;
+  font-weight: bold;
+}
+
+/* Responsive adjustments for comparison section */
+@media screen and (max-width: 768px) {
+  .comparison-section {
+    padding: 10px;
+  }
+
+  .comparison-box {
+    padding: 10px;
+  }
+
+  .comparison-details {
+    flex-direction: column;
+  }
+
+  .detail-row {
+    grid-template-columns: 1fr; 
+    align-items: flex-start;  
+    text-align: left; 
+  }
+
+  .detail-row span {
+    margin-bottom: 5px;
+  }
+
+  .not-included, .included {
+    text-align: left;  
+  }
+}
 
 .pricing-container {
   flex: 1;
