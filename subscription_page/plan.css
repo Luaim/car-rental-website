@@ -1,3 +1,5 @@
+
+
 /* this part for the header */
 body {
   margin: 0;
@@ -366,6 +368,41 @@ nav ul li a.active {
       grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Styling for the inspection-rating section */
+.inspection-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fd878763; 
+  border:  solid #fd8787fa; 
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center; /* Center text inside the section */
+}
+
+.inspection-rating p {
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
+.inspection-rating p:first-of-type {
+  font-weight:lighter;
+  color: #000000; /* Darker text for the introductory line */
+}
+
+.inspection-rating p:nth-of-type(2) {
+  font-size: 1.5em; /* Larger font for star rating */
+  color: #000000; /* Star color */
+}
+
+.inspection-rating p:last-of-type {
+  color: #777; /* Lighter text for the inspection date */
+}
+
 
 .pricing-container {
   flex: 1;
