@@ -1,3 +1,5 @@
+USE CarRentalDB;
+
 
 CREATE TABLE Cars (
     CarID INT PRIMARY KEY IDENTITY,

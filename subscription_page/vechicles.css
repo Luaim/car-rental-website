@@ -253,7 +253,6 @@ nav ul li a.active {
 }
 
 /*this section is the style for the car cards*/
-
 .car-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
