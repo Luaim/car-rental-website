@@ -62,6 +62,7 @@
         </div>
     </section>
 
+
     <!-- PHP code to fetch data from the database and display car cards -->
     <section>
         <div class="car-grid">
