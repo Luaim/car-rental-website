@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <title>DOOS Website</title>
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./vechicles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <!-- THIS IS FOR THE WHATS APP FLOATING BUTTON-->
+    <!-- WhatsApp Floating Button -->
     <a href="https://api.whatsapp.com/send?phone=+601160602943&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
         class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
 
-    <!-- this part for the header the top part in the page-->
+    <!-- Header Section -->
     <header>
         <div class="navbar">
             <div class="logo">
@@ -38,7 +40,7 @@
         </div>
     </header>
 
-    <!-- this part for the hero the part after the header-->
+    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-text">
             <h1>Find the car that's best for you</h1>
@@ -48,10 +50,10 @@
         <img src="../assets/Cars subscription page.png" alt="Car Image" class="hero-image">
     </section>
 
-    <!-- this part header of the cars options which is under the hero-->
+    <!-- Vehicle Section -->
     <section class="vehicle-section">
         <h2 class="vehicle-title">Our Vehicles</h2>
-        <p class="vehicle-subtitle">Our fleet includes a variety of vehicles to suit every preference and budget, From
+        <p class="vehicle-subtitle">Our fleet includes a variety of vehicles to suit every preference and budget, from
             compact cars for city exploration to spacious SUVs</p>
         <div class="search-container">
             <input type="text" class="search-input" placeholder="Search for car">
@@ -62,81 +64,75 @@
         </div>
     </section>
 
-
-    <!-- PHP code to fetch data from the database and display car cards -->
+    <!-- PHP Code for Car Listings -->
     <section>
         <div class="car-grid">
             <?php
-// Database connection parameters
-$serverName = "LUAI\\LUAI"; // Replace with your actual SQL Server name
-$connectionOptions = array(
-    "Database" => "CarRentalDB", // Replace with your actual database name
-    "TrustServerCertificate" => true // Optional: Use if SQL Server certificate is not trusted
-    // "Uid" and "PWD" are not needed for Windows Authentication and can be omitted.
-);
+                // Database connection parameters
+                $serverName = "IBRAHIM"; // Replace with your actual SQL Server name
+                $connectionOptions = array(
+                    "Database" => "CarRentalDB", // Replace with your actual database name
+                    "TrustServerCertificate" => true // Optional: Use if SQL Server certificate is not trusted
+                    // "Uid" and "PWD" are not needed for Windows Authentication and can be omitted.
+                );
 
-// Establishes the connection using Windows Authentication
-$conn = sqlsrv_connect($serverName, $connectionOptions);
+                // Establishes the connection using Windows Authentication
+                $conn = sqlsrv_connect($serverName, $connectionOptions);
 
-// Check if the connection was successful
-if ($conn === false) {
-    die(print_r(sqlsrv_errors(), true));
-}
+                // Check if the connection was successful
+                if ($conn === false) {
+                    die(print_r(sqlsrv_errors(), true));
+                }
 
-// SQL query to fetch all car data
-$sql = "SELECT * FROM Cars";
-$stmt = sqlsrv_query($conn, $sql);
+                // SQL query to fetch all car data
+                $sql = "SELECT * FROM Cars";
+                $stmt = sqlsrv_query($conn, $sql);
 
-// Check if the query execution was successful
-if ($stmt === false) {
-    die(print_r(sqlsrv_errors(), true));
-}
+                // Check if the query execution was successful
+                if ($stmt === false) {
+                    die(print_r(sqlsrv_errors(), true));
+                }
 
-// Loop through the results and output each car card
-while ($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
-    echo '<div class="car-card">';
-    echo '<img src="../assets/' . $row['Model'] . '.png" alt="' . $row['Model'] . '" class="car-image">';
-    echo '<div class="car-details">';
-    echo '<h3 class="car-title">' . $row['Model'] . '</h3>';
-    echo '<p class="car-price">RM ' . number_format($row['PricePerYear'], 2) . '/Year</p>';
-    echo '<div class="car-info">';
+                // Loop through the results and output each car card
+                while ($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
+                    echo '<div class="car-card">';
+                    echo '<img src="../assets/' . $row['Model'] . '.png" alt="' . $row['Model'] . '" class="car-image">';
+                    echo '<div class="car-details">';
+                    echo '<h3 class="car-title">' . $row['Model'] . '</h3>';
+                    echo '<p class="car-price">RM ' . number_format($row['PricePerYear'], 2) . '/Year</p>';
+                    echo '<div class="car-info">';
+                    echo '<div class="car-feature">';
+                    echo '<img src="../assets/Seats.png" alt="Seats">';
+                    echo '<span>' . $row['Seats'] . ' Seats</span>';
+                    echo '</div>';
+                    echo '<div class="car-feature">';
+                    echo '<img src="../assets/AC.png" alt="Air Conditioning">';
+                    echo '<span>' . ($row['AirConditioning'] ? 'AC' : 'No AC') . '</span>';
+                    echo '</div>';
+                    echo '<div class="car-feature">';
+                    echo '<img src="../assets/system.png" alt="Transmission">';
+                    echo '<span>' . $row['TransmissionType'] . '</span>';
+                    echo '</div>';
+                    echo '<div class="car-feature">';
+                    echo '<img src="../assets/Petrol station.png" alt="Fuel Type">';
+                    echo '<span>' . $row['FuelType'] . '</span>';
+                    echo '</div>';
+                    echo '</div>';
+                    echo '<button class="rent-car-btn">Rent the Car</button>';
+                    echo '</div>';
+                    echo '</div>';
+                }
 
-    echo '<div class="car-feature">';
-    echo '<img src="../assets/Seats.png" alt="Seats">';
-    echo '<span>' . $row['Seats'] . ' Seats</span>';
-    echo '</div>';
-
-    echo '<div class="car-feature">';
-    echo '<img src="../assets/AC.png" alt="Air Conditioning">';
-    echo '<span>' . ($row['AirConditioning'] ? 'AC' : 'No AC') . '</span>';
-    echo '</div>';
-
-    echo '<div class="car-feature">';
-    echo '<img src="../assets/system.png" alt="Transmission">';
-    echo '<span>' . $row['TransmissionType'] . '</span>';
-    echo '</div>';
-
-    echo '<div class="car-feature">';
-    echo '<img src="../assets/Petrol station.png" alt="Fuel Type">';
-    echo '<span>' . $row['FuelType'] . '</span>';
-    echo '</div>';
-    
-    echo '</div>';
-    echo '<button class="rent-car-btn">Rent the Car</button>';
-    echo '</div>';
-    echo '</div>';
-}
-
-// Free statement and close connection
-sqlsrv_free_stmt($stmt);
-sqlsrv_close($conn);
-?>
+                // Free statement and close connection
+                sqlsrv_free_stmt($stmt);
+                sqlsrv_close($conn);
+            ?>
         </div>
         <button id="loadMore" onclick="loadMoreCards()">Load More</button>
         <script src="./vechicles.js"></script>
     </section>
 
-    <!--this section is the last part which is used for the footer-->
+    <!-- Footer Section -->
     <footer>
         <div class="container">
             <div class="logo">
@@ -180,7 +176,7 @@ sqlsrv_close($conn);
             <p>&copy; 2024 DOOS. All rights reserved. <a href="#">Terms & Conditions</a> <a href="#"> . Privacy
                     Policy</a></p>
         </div>
-        <!-- New section for LinkedIn icons and names -->
+        <!-- Credits Section -->
         <div class="credits">
             <a href="https://www.linkedin.com/in/luai-linkedin" target="_blank" class="credit-item">
                 <span class="text">Made By</span>

@@ -268,7 +268,7 @@ nav ul li a.active {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
-  background: white;
+  background: #FFF;
   margin: 0;
   transition: transform 0.3s ease-in-out;
   position: relative;
