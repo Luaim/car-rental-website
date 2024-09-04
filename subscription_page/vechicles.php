@@ -99,7 +99,7 @@
                     echo '<img src="../assets/' . $row['Model'] . '.png" alt="' . $row['Model'] . '" class="car-image">';
                     echo '<div class="car-details">';
                     echo '<h3 class="car-title">' . $row['Model'] . '</h3>';
-                    echo '<p class="car-price">RM ' . number_format($row['PricePerYear'], 2) . '/Year</p>';
+                    echo '<p class="car-price">RM ' . number_format($row['PricePerMonth'], 2) . '/Month</p>';
                     echo '<div class="car-info">';
                     echo '<div class="car-feature">';
                     echo '<img src="../assets/Seats.png" alt="Seats">';
@@ -118,7 +118,7 @@
                     echo '<span>' . $row['FuelType'] . '</span>';
                     echo '</div>';
                     echo '</div>';
-                    echo '<button class="rent-car-btn">Rent the Car</button>';
+                    echo '<a href="plan.php?CarID=' . $row['CarID'] . '" class="rent-car-btn">Rent the Car</a>';
                     echo '</div>';
                     echo '</div>';
                 }

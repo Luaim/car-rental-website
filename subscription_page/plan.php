@@ -1,3 +1,43 @@
+<?php
+// Database connection
+$serverName = "IBRAHIM";
+$connectionOptions = array(
+    "Database" => "CarRentalDB"
+);
+
+// Establishes the connection
+$conn = sqlsrv_connect($serverName, $connectionOptions);
+
+if ($conn === false) {
+    die(print_r(sqlsrv_errors(), true));
+}
+
+// Fetch car ID from the query string or other source
+$carID = $_GET['CarID'];  // or other method to get the car ID
+
+// Query to fetch car details
+$sql = "SELECT * FROM Cars WHERE CarID = ?";
+$params = array($carID);
+$stmt = sqlsrv_query($conn, $sql, $params);
+
+if ($stmt === false) {
+    die(print_r(sqlsrv_errors(), true));
+}
+
+$car = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC);
+
+// Calculate prices for different plans
+$pricePerMonth = $car['PricePerMonth'];
+$price12Months = $pricePerMonth * 12;
+$price24Months = $pricePerMonth * 24;
+$price36Months = $pricePerMonth * 36;
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,7 +114,7 @@
     <!-- THE SECTION USED FOR THE PART UNDER THE IMAGES FOR THE CAR DETAILS -->
     <section class="subscription-details"> <!-- This is the big big father -->
         <div class="plan-options">
-            <h2>JAECOO J7 1.6T AWD 2024</h2>
+            <h2><?php echo htmlspecialchars($car['Model']); ?></h2>
             <div class="details">
                 <span class="stars">
                     <!-- Star icons (use Font Awesome) -->
@@ -85,7 +125,7 @@
                     <i class="fas fa-star"></i>
                 </span>
                 <span class="separator">•</span>
-                <span class="km">500 KM</span>
+                <span class="km"><?php echo htmlspecialchars($car['Mileage']) . " KM"; ?></span>
                 <span class="separator">•</span>
                 <span class="badge promo">PROMO</span>
                 <span class="badge new">NEW</span>
@@ -122,35 +162,36 @@
                     <div class="specs-grid">
                         <div class="spec-item">
                             <strong>BODY TYPE</strong>
-                            <p>SUV</p>
+                            <p><?php echo htmlspecialchars($car['BodyType']); ?></p>
                         </div>
                         <div class="spec-item">
                             <strong>FUEL TYPE</strong>
-                            <p>Petrol</p>
+                            <p><?php echo htmlspecialchars($car['FuelType']); ?></p>
                         </div>
                         <div class="spec-item">
                             <strong>TRANSMISSION</strong>
-                            <p>Automatic</p>
+                            <p><?php echo htmlspecialchars($car['TransmissionType']); ?></p>
                         </div>
                         <div class="spec-item">
                             <strong>DRIVE TRAIN</strong>
-                            <p>AWD</p>
+                            <p><?php echo htmlspecialchars($car['DriveTrain']); ?></p>
+
                         </div>
                         <div class="spec-item">
                             <strong>ENGINE CAPACITY</strong>
-                            <p>1600 CC</p>
+                            <p><?php echo htmlspecialchars($car['EngineCapacity']); ?></p>
                         </div>
                         <div class="spec-item">
                             <strong>COLOUR</strong>
-                            <p>Black</p>
+                            <p><?php echo htmlspecialchars($car['Colour']); ?></p>
                         </div>
                         <div class="spec-item">
                             <strong>0 - 100 KM/H</strong>
-                            <p>8 s</p>
+                            <p><?php echo htmlspecialchars($car['ZeroToHundred']); ?></p>
                         </div>
                         <div class="spec-item">
                             <strong>FUEL EFFICIENCY</strong>
-                            <p>7.5 L/100KM</p>
+                            <p><?php echo htmlspecialchars($car['FuelEfficiency']); ?></p>
                         </div>
                     </div>
                 </div>
@@ -195,7 +236,8 @@
 
             <!-- This part is used for the vehicle's inspection rating -->
             <section class="inspection-rating">
-                <p>Start your journey with confidence, knowing your vehicle has been meticulously checked with a thorough inspection process by our Concierge team.</p>
+                <p>Start your journey with confidence, knowing your vehicle has been meticulously checked with a
+                    thorough inspection process by our Concierge team.</p>
                 <p>5.0 stars</p>
                 <span class="stars">
                     <!-- Star icons (use Font Awesome) -->
@@ -208,83 +250,83 @@
                 <p>Inspected on 22-08-2024</p>
             </section>
 
-<!-- this section for the comparison table the part under the tabs content -->
-<section class="comparison-section">
-    <div class="comparison-box">
-        <h2>BETTER THAN BUYING</h2>
-        <p>Subscribe to a Daihatsu Copen and save 55% compared to a 5-year loan.</p>
+            <!-- this section for the comparison table the part under the tabs content -->
+            <section class="comparison-section">
+                <div class="comparison-box">
+                    <h2>BETTER THAN BUYING</h2>
+                    <p>Subscribe to a Daihatsu Copen and save 55% compared to a 5-year loan.</p>
 
-        <div class="comparison-details">
-            <div class="detail-header">
-                <span>What’s Included</span>
-                <span>Loan</span>
-                <span>Doos</span>
-            </div>
-            <div class="detail-row">
-                <span class="included-item">Comprehensive insurance</span>
-                <span class="not-included">✗</span>
-                <span class="included">✔</span>
-            </div>
-            <div class="detail-row">
-                <span class="included-item">Road tax</span>
-                <span class="not-included">✗</span>
-                <span class="included">✔</span>
-            </div>
-            <div class="detail-row">
-                <span class="included-item">Maintenance</span>
-                <span class="not-included">✗</span>
-                <span class="included">✔</span>
-            </div>
-            <div class="detail-row">
-                <span class="included-item">Door-to-door delivery</span>
-                <span class="not-included">✗</span>
-                <span class="included">✔</span>
-            </div>
-            <div class="detail-row">
-                <span class="included-item">Concierge service</span>
-                <span class="not-included">✗</span>
-                <span class="included">✔</span>
-            </div>
-            <div class="detail-row">
-                <span class="included-item">Personal accident coverage</span>
-                <span class="not-included">✗</span>
-                <span class="included">✔</span>
-            </div>
-            <div class="detail-row">
-                <span class="included-item">24/7 roadside assistance</span>
-                <span class="not-included">✗</span>
-                <span class="included">✔</span>
-            </div>
-            <div class="detail-row">
-                <span class="included-item">Theft recovery services</span>
-                <span class="not-included">✗</span>
-                <span class="included">✔</span>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="how-to-subscribe">
-        <h2>HOW TO SUBSCRIBE</h2>
-        <div class="steps">
-            <div class="step">
-                <h3>1</h3>
-                <h4>Choose Your Car</h4>
-                <p>Select your subscription plan and mileage package.</p>
-            </div>
-            <div class="step">
-                <h3>2</h3>
-                <h4>Book Online</h4>
-                <p>Book your car online, it’s only RM 81 and takes less than 5 minutes.</p>
-            </div>
-            <div class="step">
-                <h3>3</h3>
-                <h4>Get It Delivered</h4>
-                <p>Our Concierge team delivers your car to your doorstep.</p>
-            </div>
-        </div>
-    </div>    
-</section>
+                    <div class="comparison-details">
+                        <div class="detail-header">
+                            <span>What’s Included</span>
+                            <span>Loan</span>
+                            <span>Doos</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="included-item">Comprehensive insurance</span>
+                            <span class="not-included">✗</span>
+                            <span class="included">✔</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="included-item">Road tax</span>
+                            <span class="not-included">✗</span>
+                            <span class="included">✔</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="included-item">Maintenance</span>
+                            <span class="not-included">✗</span>
+                            <span class="included">✔</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="included-item">Door-to-door delivery</span>
+                            <span class="not-included">✗</span>
+                            <span class="included">✔</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="included-item">Concierge service</span>
+                            <span class="not-included">✗</span>
+                            <span class="included">✔</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="included-item">Personal accident coverage</span>
+                            <span class="not-included">✗</span>
+                            <span class="included">✔</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="included-item">24/7 roadside assistance</span>
+                            <span class="not-included">✗</span>
+                            <span class="included">✔</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="included-item">Theft recovery services</span>
+                            <span class="not-included">✗</span>
+                            <span class="included">✔</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="how-to-subscribe">
+                    <h2>HOW TO SUBSCRIBE</h2>
+                    <div class="steps">
+                        <div class="step">
+                            <h3>1</h3>
+                            <h4>Choose Your Car</h4>
+                            <p>Select your subscription plan and mileage package.</p>
+                        </div>
+                        <div class="step">
+                            <h3>2</h3>
+                            <h4>Book Online</h4>
+                            <p>Book your car online, it’s only RM 81 and takes less than 5 minutes.</p>
+                        </div>
+                        <div class="step">
+                            <h3>3</h3>
+                            <h4>Get It Delivered</h4>
+                            <p>Our Concierge team delivers your car to your doorstep.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
         </div>
@@ -306,8 +348,10 @@
                             36 months
                         </span>
                         <span class="price">
-                            RM 1240/mo
-                            <small class="small">RM 1240 billed every month</small>
+                            RM <?php echo htmlspecialchars(number_format($price36Months, 2)); ?>/mo
+                            <small class="small">RM <?php echo htmlspecialchars(number_format($price36Months, 2)); ?>
+                                billed every
+                                month</small>
                         </span>
                     </label>
 
@@ -318,9 +362,9 @@
                             24 Months
                         </span>
                         <span class="price">
-                            RM 1350/mo
-                            <small class="small">RM 1350 billed once a month</small>
-                            <span class="info">save up to 50%</span>
+                            RM <?php echo htmlspecialchars(number_format($pricePerMonth, 2)); ?>/mo
+                            <small class="small">RM <?php echo htmlspecialchars(number_format($pricePerMonth, 2)); ?>
+                                billed every month</small>
                         </span>
                     </label>
 
@@ -331,8 +375,9 @@
                             12 Months
                         </span>
                         <span class="price">
-                            RM 1500/mo
-                            <small class="small">RM 1500 billed every month</small>
+                            RM <?php echo htmlspecialchars(number_format($price12Months, 2)); ?>/mo
+                            <small class="small">RM <?php echo htmlspecialchars(number_format($price12Months, 2)); ?>
+                                billed every month</small>
                         </span>
                     </label>
 
@@ -343,8 +388,9 @@
                             1 Month
                         </span>
                         <span class="price">
-                            RM 300/mo
-                            <small class="small">RM 300 billed every month</small>
+                            RM <?php echo htmlspecialchars(number_format($pricePerMonth, 2)); ?>/mo
+                            <small class="small">RM <?php echo htmlspecialchars(number_format($pricePerMonth, 2)); ?>
+                                billed every month</small>
                         </span>
                     </label>
                 </div>
@@ -353,8 +399,15 @@
             <div class="mileage-plan">
                 <h3>MILEAGE PER MONTH</h3>
                 <div class="dropdown-container">
-                    <select>
-                        <option value="lite-1250km">Lite 1250KM Free</option>
+                    <select  class="mileage-select">
+                        <option value="lite"><?php echo htmlspecialchars("Lite -  1,250 KM " . $car['MileageLite']); ?>
+                        </option>
+                        <option value="standard">
+                            <?php echo htmlspecialchars("Standard - 2,000 KM " . $car['MileageStandard']); ?></option>
+                        <option value="plus"><?php echo htmlspecialchars("Plus -  2,750 KM " . $car['MileagePlus']); ?>
+                        </option>
+                        <option value="unlimited">
+                            <?php echo htmlspecialchars("Unlimited " . $car['MileageUnlimited']); ?></option>
                     </select>
                 </div>
             </div>
@@ -431,3 +484,9 @@
 </body>
 
 </html>
+
+<?php
+// Free statement and close connection
+sqlsrv_free_stmt($stmt);
+sqlsrv_close($conn);
+?>
