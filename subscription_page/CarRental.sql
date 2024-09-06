@@ -1,6 +1,3 @@
-
-DROP TABLE IF EXISTS Cars;
-
 USE CarRentalDB;
 
 CREATE TABLE Cars (
@@ -47,4 +44,4 @@ VALUES
 ('Fiat 500', 300, 4, 5000, 1, 'Manual', 'Petrol', 'Hatchback', 'FWD', '1400 CC', 'Pink', '12.9 s', '6.2 L/100KM', 'Free', 700.00, 1200.00, 280.00),
 ('Renault Clio', 400, 5, 5000, 1, 'Automatic', 'Diesel', 'Hatchback', 'FWD', '1500 CC', 'Orange', '11.8 s', '3.6 L/100KM', 'Free', 800.00, 1300.00, 350.00);
 
-SELECT * FROM Cars;
+SELECT * FROM Cars;

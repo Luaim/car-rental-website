@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$serverName = "IBRAHIM";
+$serverName = "LUAI\\LUAI";
 $connectionOptions = array(
     "Database" => "CarRentalDB"
 );
@@ -32,10 +32,16 @@ $price12Months = $pricePerMonth * 12;
 $price24Months = $pricePerMonth * 24;
 $price36Months = $pricePerMonth * 36;
 
+$imageBasePath = '../assets/';
+$imagePrefix = $car['Model']; // Assuming 'Model' is the name field
+$imageExtensions = ['.png', '2.png', '3.png', '4.png', '5.png'];
+
+$images = [];
+foreach ($imageExtensions as $extension) {
+    $images[] = $imageBasePath . $imagePrefix . $extension;
+}
+
 ?>
-
-
-
 
 
 <!DOCTYPE html>
@@ -77,40 +83,26 @@ $price36Months = $pricePerMonth * 36;
         </div>
     </header>
     <section>
-        <div class="slider">
-            <div class="list">
+    <div class="slider">
+        <div class="list">
+            <?php foreach ($images as $image): ?>
                 <div class="item">
-                    <img src="../assets/Tesla Model X.png" alt="Tesla Model X">
+                    <img src="<?php echo htmlspecialchars($image); ?>" alt="<?php echo htmlspecialchars($car['Model']); ?>">
                 </div>
-                <div class="item">
-                    <img src="../assets/tesla-2.jpeg" alt="Tesla Model X">
-                </div>
-                <div class="item">
-                    <img src="../assets/tesla-3.jpeg" alt="Tesla Model X">
-                </div>
-                <div class="item">
-                    <img src="../assets/tesla-4.jpeg" alt="Tesla Model X">
-                </div>
-                <div class="item">
-                    <img src="../assets/tesla-5.jpeg" alt="Tesla Model X">
-                </div>
-                <!-- Repeat the above item div as needed -->
-            </div>
-            <div class="buttons">
-                <button id="prev">&lt;</button>
-                <button id="next">&gt;</button>
-            </div>
-            <ul class="dots">
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <?php endforeach; ?>
         </div>
-
-        <script src="./plan.js"></script>
-    </section>
+        <div class="buttons">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+        <ul class="dots">
+            <?php foreach ($images as $index => $image): ?>
+                <li class="<?php echo $index === 0 ? 'active' : ''; ?>"></li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+    <script src="./plan.js"></script>
+    
     <!-- THE SECTION USED FOR THE PART UNDER THE IMAGES FOR THE CAR DETAILS -->
     <section class="subscription-details"> <!-- This is the big big father -->
         <div class="plan-options">
@@ -327,8 +319,6 @@ $price36Months = $pricePerMonth * 36;
                     </div>
                 </div>
             </section>
-
-
         </div>
 
         <div class="pricing-container">
@@ -362,8 +352,8 @@ $price36Months = $pricePerMonth * 36;
                             24 Months
                         </span>
                         <span class="price">
-                            RM <?php echo htmlspecialchars(number_format($pricePerMonth, 2)); ?>/mo
-                            <small class="small">RM <?php echo htmlspecialchars(number_format($pricePerMonth, 2)); ?>
+                            RM <?php echo htmlspecialchars(number_format($price24Months, 2)); ?>/mo
+                            <small class="small">RM <?php echo htmlspecialchars(number_format($price24Months, 2)); ?>
                                 billed every month</small>
                         </span>
                     </label>
@@ -469,12 +459,12 @@ $price36Months = $pricePerMonth * 36;
         </div>
         <!-- New section for LinkedIn icons and names -->
         <div class="credits">
-            <a href="https://www.linkedin.com/in/luai-linkedin" target="_blank" class="credit-item">
+            <a href="https://www.linkedin.com/in/luaimohammed" target="_blank" class="credit-item">
                 <span class="text">Made By</span>
                 <i class="fab fa-linkedin"></i>
                 <span class="name">Luai</span>
             </a>
-            <a href="https://www.linkedin.com/in/ebriham-linkedin" target="_blank" class="credit-item">
+            <a href="https://www.linkedin.com/in/ebrahim-khaled-b377512ba" target="_blank" class="credit-item">
                 <i class="fab fa-linkedin"></i>
                 <span class="name"> Ebriham</span>
             </a>

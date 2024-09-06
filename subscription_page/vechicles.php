@@ -69,7 +69,7 @@
         <div class="car-grid">
             <?php
                 // Database connection parameters
-                $serverName = "IBRAHIM"; // Replace with your actual SQL Server name
+                $serverName = "LUAI\\LUAI"; // Replace with your actual SQL Server name
                 $connectionOptions = array(
                     "Database" => "CarRentalDB", // Replace with your actual database name
                     "TrustServerCertificate" => true // Optional: Use if SQL Server certificate is not trusted
@@ -178,12 +178,12 @@
         </div>
         <!-- Credits Section -->
         <div class="credits">
-            <a href="https://www.linkedin.com/in/luai-linkedin" target="_blank" class="credit-item">
+            <a href="https://www.linkedin.com/in/luaimohammed" target="_blank" class="credit-item">
                 <span class="text">Made By</span>
                 <i class="fab fa-linkedin"></i>
                 <span class="name">Luai</span>
             </a>
-            <a href="https://www.linkedin.com/in/ebriham-linkedin" target="_blank" class="credit-item">
+            <a href="https://www.linkedin.com/in/ebrahim-khaled-b377512ba" target="_blank" class="credit-item">
                 <i class="fab fa-linkedin"></i>
                 <span class="name"> Ebriham</span>
             </a>
