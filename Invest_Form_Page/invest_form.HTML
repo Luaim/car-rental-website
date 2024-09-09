@@ -53,22 +53,31 @@
         <div class="row">
           <div class="half">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="E.g., Martie Marx">
+            <input type="text" id="name" name="name" placeholder="E.g., Martie Marx" required>
           </div>
           <div class="half">
             <label for="phone">Phone Number</label>
-            <input type="text" id="phone" name="phone" placeholder="E.g., 0123456789">
+            <input type="text" id="phone" name="phone" placeholder="E.g., 0123456789" required>
           </div>
         </div>
         <div class="row">
           <div class="half">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="E.g., martie54@gmail.com">
+            <input type="email" id="email" name="email" placeholder="E.g., martie54@gmail.com" required>
           </div>
           <div class="half">
             <label for="location">Location</label>
-            <select id="location" name="location">
+            <select id="location" name="location" required>
+              <option value="">Please select a location</option>
               <option value="klcc">KLCC</option>
+              <option value="Penang">Penang</option>
+              <option value="Johor Bahru">Johor Bahru</option>
+              <option value="Ipoh">Ipoh</option>
+              <option value="kuching">kuching</option>
+              <option value="melaka">Melaka</option>
+              <option value="seremban">seremban</option>
+              <option value="shah-alam">shah-alam</option>
+              <option value="petaling-jaya">petaling-jaya</option>
             </select>
           </div>
         </div>
@@ -80,78 +89,100 @@
         <div class="row">
           <div class="half">
             <label for="brand">Brand</label>
-            <select id="brand" name="brand">
-              <option value="bmw">BMW</option>
+            <select id="brand" name="brand" required>
+              <option value="">Please select a brand</option>
+              <option value="perodua">Perodua</option>
+              <option value="proton">Proton</option>
+              <option value="toyota">Toyota</option>
+              <option value="honda">Honda</option>
+              <option value="nissan">Nissan</option>
+              <option value="mercedes-benz">Mercedes-Benz</option>
+              <option value="mazda">Mazda</option>
+              <option value="mitsubishi">Mitsubishi</option>
+              <option value="ford">Ford</option>
             </select>
           </div>
           <div class="half">
             <label for="model">Model</label>
-            <select id="model" name="model">
-              <option value="x5">X5</option>
+            <input type="text" id="model" name="model" placeholder="Enter car model" required>
             </select>
           </div>
         </div>
         <div class="row">
           <div class="half">
             <label for="years">Years</label>
-            <select id="years" name="years">
-              <option value="2023">2023</option>
+            <select id="year" name="year" required>
+              <option value="">Select a year</option>
             </select>
           </div>
           <div class="half">
             <label for="mileage">Mileage</label>
-            <select id="mileage" name="mileage">
-              <option value="35000km">35000KM</option>
+            <input type="text" id="mileage" name="mileage" placeholder="E.g., 50000 KM" required>
             </select>
           </div>
         </div>
         <div class="row">
           <div class="half">
             <label for="licensePlate">License Plate</label>
-            <input type="text" id="licensePlate" name="licensePlate" placeholder="E.g., HF4560B">
+            <input type="text" id="licensePlate" name="licensePlate" placeholder="E.g., HF4560B" required>
           </div>
           <div class="half">
             <label for="color">Color</label>
-            <select id="color" name="color">
+            <select id="color" name="color" required>
+              <option value="">Select a color</option>
               <option value="red">Red</option>
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="silver">Silver</option>
+              <option value="grey">Grey</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+              <option value="yellow">Yellow</option>
+              <option value="orange">Orange</option>
+              <option value="brown">Brown</option>
             </select>
           </div>
         </div>
         <div class="row">
           <div class="half">
             <label for="condition">Condition</label>
-            <select id="condition" name="condition">
+            <select id="condition" name="condition" required>
+              <option value="">Select a condition</option>
+              <option value="new">New</option>
+              <option value="excellent">Excellent</option>
               <option value="good">Good</option>
+              <option value="fair">Fair</option>
+              <option value="poor">Poor</option>
             </select>
           </div>
           <div class="half">
             <label for="rentalPrice">Rental Price per Year</label>
-            <input type="number" id="rentalPrice" name="rentalPrice" placeholder="E.g., 15000 RM">
+            <input type="number" id="rentalPrice" name="rentalPrice" placeholder="E.g., 15000 RM" min="0" required>
           </div>
         </div>
         <label for="description">Description</label>
         <textarea id="description" name="description"
-          placeholder="E.g., The car is in good condition and it does not have any problem"></textarea>
+          placeholder="E.g., The car is in good condition and it does not have any problem" required></textarea>
       </div>
 
       <!-- Photos/Video Section -->
-      <div class="upload-section">
+      <div class="upload-section" >
         <h2>Photos/Video</h2>
-        <p class="instructions">
+        <p class="instructions" >
           • The maximum photo size is 8 MB. Formats: jpeg, jpg, png. Put the main picture first<br>
           • The maximum video size is 10MB. Formats: mp4, mov.
         </p>
         <div class="file-upload-box">
             <label for="photoUpload" class="custom-file-upload">
                 <i class="fa fa-cloud-upload"></i> Upload photo/Video
-                <input type="file" id="photoUpload" name="photoUpload" accept="image/jpeg, image/png, image/jpg, video/mp4, video/mov" onchange="updateFilename(this.value)">
+                <input type="file" id="photoUpload" name="photoUpload" accept="image/jpeg, image/png, image/jpg, video/mp4, video/mov" onchange="updateFilename(this.value)" required>
             </label>
             <div id="file-chosen">No file chosen</div>
         </div>
     </div>
 
     <div class="button-container">
-      <button type="submit" class="button">Submit</button>
+      <button type="button" onclick="sendToWhatsApp()" class="button">Submit</button>
     </div>
     
   </div>
@@ -218,6 +249,64 @@
     function updateFilename(path) {
       const filename = path.split('\\').pop();
       document.getElementById('file-chosen').textContent = filename || 'No file chosen';
+    }
+  </script>
+
+
+  <script>
+    const yearSelect = document.getElementById('year');
+    const currentYear = new Date().getFullYear();
+    const earliestYear = 1990;
+    for (let i = currentYear; i >= earliestYear; i--) {
+      let option = new Option(i, i);
+      yearSelect.add(option);
+    }
+  </script>
+
+  <script>
+    function sendToWhatsApp() {
+      // Collect input values from the form
+      var name = document.getElementById('name').value.trim();
+      var phone = document.getElementById('phone').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var location = document.getElementById('location').value.trim();
+      var brand = document.getElementById('brand').value.trim();
+      var model = document.getElementById('model').value.trim();
+      var year = document.getElementById('year').value.trim();
+      var mileage = document.getElementById('mileage').value.trim();
+      var licensePlate = document.getElementById('licensePlate').value.trim();
+      var color = document.getElementById('color').value.trim();
+      var condition = document.getElementById('condition').value.trim();
+      var rentalPrice = document.getElementById('rentalPrice').value.trim();
+      var description = document.getElementById('description').value.trim();
+
+      // Check if all required fields are filled
+      if (!name || !phone || !email || !location || !brand || !model || !year || !mileage || !licensePlate || !color || !condition || !rentalPrice || !description) {
+          alert('Please fill in all required fields.');
+          return; // Stop the function if any field is empty
+      }
+
+      // Construct message to be sent
+      var message = `New Car Rental Submission:\n` +
+                    `Name: ${name}\n` +
+                    `Phone: ${phone}\n` +
+                    `Email: ${email}\n` +
+                    `Location: ${location}\n` +
+                    `Brand: ${brand}\n` +
+                    `Model: ${model}\n` +
+                    `Year: ${year}\n` +
+                    `Mileage: ${mileage}\n` +
+                    `License Plate: ${licensePlate}\n` +
+                    `Color: ${color}\n` +
+                    `Condition: ${condition}\n` +
+                    `Rental Price per Year: ${rentalPrice}\n` +
+                    `Description: ${description}`;
+      
+      // Encode the message for URL
+      var whatsappUrl = `https://wa.me/+60148095166?text=${encodeURIComponent(message)}`;
+      
+      // Open WhatsApp URL in new tab
+      window.open(whatsappUrl, '_blank');
     }
   </script>
 

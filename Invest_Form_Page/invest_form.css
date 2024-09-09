@@ -193,6 +193,7 @@ textarea {
 }
 
 input[type="text"],
+input[type="email"],
 input[type="number"],
 select,
 textarea {
@@ -298,6 +299,13 @@ input[type="file"] {
   z-index: -1;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+}
+
 button {
   background-color: #4CAF50;
   color: white;
@@ -305,7 +313,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 40%;
+  width: 30%;
   border-radius: 8px;
 }
 
@@ -324,6 +332,30 @@ button:hover {
   .half {
     width: 100%;
  }
+}
+
+
+/* Styling for invalid input fields */
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid rgba(255, 0, 0, 0.345); 
+  background-color: #ffcccc;
+}
+
+/* Styling for invalid input fields on focus to maintain usability */
+input:invalid:focus,
+select:invalid:focus,
+textarea:invalid:focus {
+  outline: none; 
+  box-shadow: 0 0 5px 1px rgba(255, 28, 28, 0.315);
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid rgba(0, 128, 0, 0.285); 
+  background-color: #ccffcc; 
 }
 
 /*this section is for the footer*/

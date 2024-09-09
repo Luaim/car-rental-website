@@ -98,25 +98,31 @@
                     echo '<div class="car-card">';
                     echo '<img src="../assets/' . $row['Model'] . '.png" alt="' . $row['Model'] . '" class="car-image">';
                     echo '<div class="car-details">';
+
                     echo '<h3 class="car-title">' . $row['Model'] . '</h3>';
                     echo '<p class="car-price">RM ' . number_format($row['PricePerMonth'], 2) . '/Month</p>';
                     echo '<div class="car-info">';
+
                     echo '<div class="car-feature">';
                     echo '<img src="../assets/Seats.png" alt="Seats">';
                     echo '<span>' . $row['Seats'] . ' Seats</span>';
                     echo '</div>';
+
                     echo '<div class="car-feature">';
                     echo '<img src="../assets/AC.png" alt="Air Conditioning">';
                     echo '<span>' . ($row['AirConditioning'] ? 'AC' : 'No AC') . '</span>';
                     echo '</div>';
+
                     echo '<div class="car-feature">';
                     echo '<img src="../assets/system.png" alt="Transmission">';
                     echo '<span>' . $row['TransmissionType'] . '</span>';
                     echo '</div>';
+
                     echo '<div class="car-feature">';
                     echo '<img src="../assets/Petrol station.png" alt="Fuel Type">';
                     echo '<span>' . $row['FuelType'] . '</span>';
                     echo '</div>';
+                    
                     echo '</div>';
                     echo '<a href="plan.php?CarID=' . $row['CarID'] . '" class="rent-car-btn">Rent the Car</a>';
                     echo '</div>';
