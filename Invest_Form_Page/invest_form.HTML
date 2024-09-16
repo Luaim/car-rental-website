@@ -279,6 +279,7 @@
       var condition = document.getElementById('condition').value.trim();
       var rentalPrice = document.getElementById('rentalPrice').value.trim();
       var description = document.getElementById('description').value.trim();
+      var updateFilename = document.getElementById('updateFilename').value.trim();
 
       // Check if all required fields are filled
       if (!name || !phone || !email || !location || !brand || !model || !year || !mileage || !licensePlate || !color || !condition || !rentalPrice || !description) {
@@ -300,7 +301,8 @@
                     `Color: ${color}\n` +
                     `Condition: ${condition}\n` +
                     `Rental Price per Year: ${rentalPrice}\n` +
-                    `Description: ${description}`;
+                    `Description: ${description}\n` +
+                    `Filename: ${updateFilename ? updateFilename : 'N/A'}`;  // Optional file input handling
       
       // Encode the message for URL
       var whatsappUrl = `https://wa.me/+60148095166?text=${encodeURIComponent(message)}`;
