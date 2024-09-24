@@ -141,116 +141,270 @@ nav ul li a.active {
 
 /* Vehicle Section Styles the section under the hero part  */
 .vehicle-section {
+  position: relative;
+  max-width: 960px; 
+  margin: auto;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
-.vehicle-title {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 35px;
-  color: #000000;
-  position: relative;
-  display: inline-block;
-}
-
-.vehicle-title::after {
-  content: '';
-  display: block;
-  width: 100%; 
-  height: 4px;
-  background-color: red;
-  border-radius: 50px;
-  margin: 5px auto 0 auto; 
-}
-
-.vehicle-subtitle {
-  align-self: stretch;
-  position: relative;
-  font-size: 20px;
-  line-height: 50%;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.75);
-  text-align: center;;
-}
-
-/* Search Bar Styles */
 .search-container {
-  width: 965px;
-  height: 50px;
+  width: 100%;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  background-color: #6bb5ff8f; 
+  border-radius: 12px; 
+  margin: 10px 0;  
+  box-shadow: none; 
+}
+
+.input-wrapper {
   position: relative;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
-  border-radius: 12px;
-  background-color: rgba(107, 181, 255, 0.33);
-  border: 1px solid #000;
-  box-sizing: border-box;
-  max-width: 100%;
-  overflow: hidden; 
-  margin-top: 40px;
-  margin-bottom: 50px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;  
+  border-radius: 12px 0 0 12px; 
+  border: 1px solid #d1d1d1;
+  margin: 0; 
 }
 
 .search-input {
-  flex: 1; 
-  height: 100%;
-  border: none;
-  outline: none;
-  background: transparent;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 1); 
+  width: 100%; 
+  height: 40px; 
+  border: none; 
+  outline: none; 
   padding-left: 40px; 
-  box-sizing: border-box;
-}
-
-.search-input::placeholder {
-  color: rgba(0, 0, 0, 0.83); 
-}
-
-.search-input {
-  flex: 1;
-  height: 55px; 
-  border: none;
-  outline: none;
-  font-size: 18px; 
-  padding-left: 50px;
-  padding-right: 15px; 
-  box-sizing: border-box;
+  font-size: 16px; 
+  color: #000000; 
   background-color: transparent; 
-  color: rgba(0, 0, 0, 1); 
-  background-image: url('../assets/search\ icon.png'); 
-  background-position: left 15px center; 
-  background-repeat: no-repeat;
-  background-size: 30px 30px; 
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px; 
+  color: #000000;
+  font-size: 20px; 
 }
 
 .filter-button {
-  height: 40px; 
-  width: 85px; 
-  border: none;
-  border-radius: 12px; 
-  background-color: #A1DAE7; 
-  color: #000000; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); 
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 6px; 
-  padding-right: 6px;
-  gap: 4px; 
-  margin-right: 6px;
+  background: linear-gradient(to right, #A1DAE7 0%, #6bb5ff8f 100%); 
+  color: #ffffff;
+  border: 1px solid #a1dae7;
+  border-radius: 0 12px 12px 0;
+  padding: 0 15px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.filter-button img {
+  height: 26px;
+  vertical-align: middle;
+}
+
+
+.filter-button:hover {
+  background: linear-gradient(to right, #6bb5ff8f 0%, #A1DAE7 100%);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .filter-icon {
-  width: 30px; 
-  height: 30px;
+  width: 26px;
+  height: 26px;
 }
+
+
+body {
+  background: #ecf9fa;
+}
+
+.filter-dropdown {
+  display: none;
+  position: absolute; 
+  top: 95%; 
+  width: 50%; 
+  left: 70%;
+  transform: translateX(-50%);
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  z-index: 10; 
+}
+
+.filter-dropdown:before {
+  content: "";
+  position: absolute;
+  top: -8.5px; 
+  left: 90%;
+  transform: translateX(-50%) rotate(45deg); 
+  width: 15px;
+  height: 15px; 
+  background-color: #FFFFFF; 
+  border-left: 1px solid black; 
+  border-top: 1px solid black; 
+  z-index: 15; 
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.filter-section label:last-child {
+  margin-bottom: 0;
+}
+
+.filter-section select,
+.filter-section input[type="number"] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.price-range-slider {
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 15px; /* Space after the slider */
+}
+
+.range-value {
+  position: relative;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px; 
+}
+
+.range-value input {
+  font-size: 16px;
+  color: #333;
+  background: transparent;
+  border: none;
+  pointer-events: none;
+}
+
+.range-bar {
+  background: #000; 
+  height: 3px;
+  margin: 10px 0; 
+  padding: 0 10px 0 0; 
+  box-sizing: border-box; 
+}
+
+.ui-slider {
+  width: calc(99% - 20px);
+  margin-left: 0;
+}
+
+.ui-slider-range {
+  background: #06b9c0; 
+  height: 3px;
+  position: absolute;
+  z-index: 1;
+}
+
+.ui-slider-handle {
+  background: #FFF;
+  border: 2px solid #06b9c0;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  top: -7px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Min and Max labels */
+.slider-min-max {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px; 
+}
+
+/* Visual adjustments for clarity and minimalism */
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 23px 0 0; 
+  margin-top: 10px;
+}
+
+.slider-label {
+  position: relative;
+  top: -10px; 
+  font-size: 12px; 
+}
+
+
+.filter-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  width: calc(50% - 10px);
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.confirm-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+}
+
+@media (max-width: 640px) {
+  .filter-dropdown {
+    width: 100%;
+    padding: 5px 10px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .price-range-slider {
+    padding: 10px 10px 0 10px;
+  }
+}
+
 
 /*this section is the style for the car cards*/
 .car-grid {

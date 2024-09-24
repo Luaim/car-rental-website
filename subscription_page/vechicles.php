@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!--this is used for the price slider-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./vechicles.css">
 </head>
@@ -53,14 +58,84 @@
     <!-- Vehicle Section -->
     <section class="vehicle-section">
         <h2 class="vehicle-title">Our Vehicles</h2>
-        <p class="vehicle-subtitle">Our fleet includes a variety of vehicles to suit every preference and budget, from
-            compact cars for city exploration to spacious SUVs</p>
+        <p class="vehicle-subtitle">Our fleet includes a variety of vehicles to suit every preference and budget, from compact cars for city exploration to spacious SUVs.</p>
+        
         <div class="search-container">
-            <input type="text" class="search-input" placeholder="Search for car">
+            <div class="input-wrapper">
+                <input type="text" class="search-input" placeholder="Search for car">
+                <i class="fa fa-search search-icon"></i>
+            </div>
             <button class="filter-button">
-                <img src="../assets/Filter icon.png" alt="Filter Icon" class="filter-icon">
-                Filter
+                <img src="../assets/Filter icon.png" alt="Filter Icon" class="filter-icon"> Filter
             </button>
+        </div>
+        
+        <div class="filter-dropdown">
+            <div class="filter-section">
+                <h3>Main Filters</h3>
+                <label>Brand 
+                    <select>
+                        <option value="">Please select a brand</option>
+                        <option value="perodua">Perodua</option>
+                        <option value="proton">Proton</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="honda">Honda</option>
+                        <option value="nissan">Nissan</option>
+                        <option value="mercedes-benz">Mercedes-Benz</option>
+                        <option value="mazda">Mazda</option>
+                        <option value="mitsubishi">Mitsubishi</option>
+                        <option value="ford">Ford</option>
+                    </select>
+                </label>
+                <label>Duration 
+                    <select>
+                        <option value="1">1 Year</option>
+                        <option value="2">2 Years</option>
+                        <option value="3">3 Years</option>
+                        <option value="4">4 Years</option>
+                        <option value="5">5 Years</option>
+                        <option value="6">6 Years</option>
+                        <option value="7">7 Years</option>
+                    </select>
+                </label>
+                <label>Sort By 
+                    <select>
+                        <option value="low_to_high">Low to high price</option>
+                        <option value="high_to_low">High to low price</option>
+                        <option value="newest">Newest</option>
+                        <option value="oldest">Oldest</option>
+                    </select>
+                </label>
+            </div>
+            <div class="filter-section">
+                <h3>More Filters</h3>
+                <label>Price Range</label>
+                <div class="price-range-slider">
+                    <p class="range-value">
+                    <input type="text" id="amount" readonly>
+                    </p>
+                    <div id="slider-range" class="range-bar"></div>
+                    <div class="slider-labels">
+                    <span class="slider-label">Min: RM500</span>
+                    <span class="slider-label">Max: RM11500</span>
+                    </div>
+                </div>                                                
+                <label>Body Type 
+                    <select>
+                        <option value="suv">SUV</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="hatchback">Hatchback</option>
+                        <option value="mpv">MPV</option>
+                        <option value="coupe">Coupe</option>
+                        <option value="convertible">Convertible</option>
+                        <option value="sports_car">Sports Car</option>
+                    </select>
+                </label>
+            </div>
+            <div class="filter-actions">
+                <button class="button cancel-button">Cancel</button>
+                <button class="button confirm-button">Confirm</button>
+            </div>
         </div>
     </section>
 
@@ -196,6 +271,43 @@
         </div>
     </footer>
 
-</body>
 
+    <script>
+       document.addEventListener('DOMContentLoaded', function() {
+            const filterButton = document.querySelector('.filter-button');
+            const filterDropdown = document.querySelector('.filter-dropdown');
+
+            filterButton.addEventListener('click', function(event) {
+                event.stopPropagation(); 
+                const isDisplayed = filterDropdown.style.display === 'block';
+                filterDropdown.style.display = isDisplayed ? 'none' : 'block'; // Toggle display
+            });
+
+            // Close dropdown when clicking outside of it
+            document.addEventListener('click', function(event) {
+                if (!filterDropdown.contains(event.target) && !filterButton.contains(event.target)) {
+                    filterDropdown.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+    <!--this js for the price slider-->
+    <script>
+        $(document).ready(function() {
+            $("#slider-range").slider({
+                range: true,
+                min: 500,
+                max: 11500,
+                values: [2000, 9500 ],
+                slide: function(event, ui) {
+                    $("#amount").val("RM" + ui.values[0] + " - RM" + ui.values[1]);
+                }
+            });
+            $("#amount").val("RM " + $("#slider-range").slider("values", 0) + " - RM " + $("#slider-range").slider("values", 1));
+        });
+    </script>
+    
+        
+</body>
 </html>
