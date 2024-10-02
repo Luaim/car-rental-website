@@ -107,7 +107,7 @@ nav ul li a.active {
   justify-content: space-between;
   align-items: center;
   padding: 50px 100px;
-  background: #FFFFFF; /* Lighter background for a cleaner look */
+  background: #FFFFFF; 
 }
 
 .hero-content {
@@ -115,26 +115,26 @@ nav ul li a.active {
 }
 
 .hero-content h1 {
-  font-size: 32px; /* Slightly smaller to fit better on all screens */
-  color: #303030; /* Dark grey for better readability */
+  font-size: 32px; 
+  color: #303030; 
   margin-bottom: 15px;
 }
 
 .hero-content p {
   font-size: 18px;
-  color: #606060; /* Lighter grey for subtlety */
+  color: #606060; 
   line-height: 1.5;
 }
 
 .hero-image {
-  width: 40%; /* Reduced size for balance */
+  width: 40%; 
   text-align: right;
 }
 
 .hero-image img {
   width: 100%;
   height: auto;
-  border-radius: 8px; /* Maintaining consistency with rounded edges */
+  border-radius: 8px; 
 }
 
 @media (max-width: 992px) {
@@ -149,7 +149,7 @@ nav ul li a.active {
   }
 
   .hero-image {
-      order: -1; /* Image above text on smaller screens */
+      order: -1; 
   }
 }
 
@@ -269,27 +269,27 @@ nav ul li a.active {
 }
 
 .what-we-offer h2:hover::after {
-  width: 100%; /* Expand underline on hover */
+  width: 100%; 
 }
 
 .what-we-offer p {
   color: #666;
   margin-bottom: 30px;
-  text-align: center; /* Ensures text is centered */
+  text-align: center; 
 }
 
 /* Card container */
 .offer-cards {
   display: flex;
-  justify-content: space-around; /* Ensures even spacing */
-  flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+  justify-content: space-around; 
+  flex-wrap: wrap; 
 }
 
 /* Individual cards */
 .offer-card {
-  width: 300px; /* Slightly larger cards */
+  width: 300px; 
   padding: 20px;
-  background: linear-gradient(to top right, #ffffff, #f1f1f1); /* Subtle gradient background */
+  background: linear-gradient(to top right, #ffffff, #f1f1f1); 
   border-radius: 10px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.5s ease;
@@ -297,15 +297,15 @@ nav ul li a.active {
 }
 
 .offer-card img {
-  width: 120px; /* Slightly larger images */
+  width: 120px; 
   height: auto;
   margin-bottom: 20px;
 }
 
 .offer-card h3 {
-  font-size: 20px; /* Larger font size for better readability */
+  font-size: 20px; 
   color: #333;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.1); /* Text shadow for depth */
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1); 
   margin-bottom: 10px;
 }
 
@@ -316,7 +316,7 @@ nav ul li a.active {
 
 /* Enhanced hover effect */
 .offer-card:hover {
-  transform: translateY(-10px) scale(1.05); /* Slightly scale up on hover */
+  transform: translateY(-10px) scale(1.05);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -326,8 +326,6 @@ nav ul li a.active {
     align-items: center;
   }
 }
-
-
 
 
 /*this section is for the footer*/
