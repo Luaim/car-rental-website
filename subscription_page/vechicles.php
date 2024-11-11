@@ -147,8 +147,7 @@
                 $serverName = "LUAI\\LUAI"; // Replace with your actual SQL Server name
                 $connectionOptions = array(
                     "Database" => "CarRentalDB", // Replace with your actual database name
-                    "TrustServerCertificate" => true // Optional: Use if SQL Server certificate is not trusted
-                    // "Uid" and "PWD" are not needed for Windows Authentication and can be omitted.
+                    "TrustServerCertificate" => true
                 );
 
                 // Establishes the connection using Windows Authentication
@@ -203,8 +202,6 @@
                     echo '</div>';
                     echo '</div>';
                 }
-
-                // Free statement and close connection
                 sqlsrv_free_stmt($stmt);
                 sqlsrv_close($conn);
             ?>
@@ -280,7 +277,7 @@
             filterButton.addEventListener('click', function(event) {
                 event.stopPropagation(); 
                 const isDisplayed = filterDropdown.style.display === 'block';
-                filterDropdown.style.display = isDisplayed ? 'none' : 'block'; // Toggle display
+                filterDropdown.style.display = isDisplayed ? 'none' : 'block';
             });
 
             // Close dropdown when clicking outside of it
@@ -306,8 +303,6 @@
             });
             $("#amount").val("RM " + $("#slider-range").slider("values", 0) + " - RM " + $("#slider-range").slider("values", 1));
         });
-    </script>
-    
-        
+    </script>       
 </body>
 </html>

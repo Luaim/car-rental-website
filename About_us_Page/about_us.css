@@ -38,7 +38,7 @@ nav ul li a {
   font-weight: 600;
   font-size: 18px;
   padding-bottom: 5px;
-  display: inline-block;
+  display: inline-block;  
 }
 
 nav ul li a.active {

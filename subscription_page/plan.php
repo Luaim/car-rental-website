@@ -33,7 +33,7 @@ $price24Months = $pricePerMonth * 24;
 $price36Months = $pricePerMonth * 36;
 
 $imageBasePath = '../assets/';
-$imagePrefix = $car['Model']; // Assuming 'Model' is the name field
+$imagePrefix = $car['Model']; 
 $imageExtensions = ['.png', '2.png', '3.png', '4.png', '5.png'];
 
 $images = [];
