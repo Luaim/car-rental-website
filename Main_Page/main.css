@@ -269,70 +269,149 @@ p {
 
 
 /*Invest your car section*/
-.invest-your-car {
-  background: url('../assets/inviste\ backgroud\ main\ page.png') no-repeat center center/cover;
+.section-title {
   text-align: center;
-  color: white;
-  padding: 50px 20px;
-  font-family: 'Arial', sans-serif; /* Ensure a clean, modern font is used */
+  margin-top: 20px;
 }
 
-.invest-your-car h2 {
-  color: #ff4747;
-  font-size: 28px; /* Slightly larger for emphasis */
-  font-weight: bold;
-  margin-bottom: 5px; /* Reduced space to tighten up the header */
+.section-title h2 {
+  font-size: 40px;
+  color: #D72626;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px; 
 }
 
-.invest-your-car h1 {
-  font-size: 42px; /* Larger for more impact */
-  font-weight: bold;
+.underline {
+  width: 220px;
+  height: 5px;
+  background-color: #D72626;
+  margin: 1px 605px;
+  border-radius: 3px;
   margin-bottom: 20px;
 }
 
-.invest-your-car p {
-  font-size: 18px; /* Standard size for readability */
-  margin-bottom: 40px; /* More space before features */
+/* Background with Blur Effect */
+.background {
+  background: url('../assets/inviste\ backgroud\ main\ page.png') no-repeat center center/cover;
+  position: relative;
+  padding: 40px 20px;
 }
 
-.features {
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(8px); 
+  z-index: 1;
+  opacity: 0.8; 
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+
+.overlay-content h1 {
+  font-size: 50px;
+  color: #D72626;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.overlay-content p {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.features-box {
+  background-color: rgba(43, 45, 66, 0.75);
+  border-radius: 30px;
+  padding: 20px;
   display: flex;
-  justify-content: center;
-  gap: 30px; /* More space between features */
+  justify-content: space-around;
+  width: 90%;
+  max-width: 1108px;
+  height: auto;
+  margin: 40px auto;
+  box-sizing: border-box;
 }
 
 .feature {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 120px; /* Define a specific width for each feature for uniformity */
+  text-align: center;
+  flex: 1;
 }
 
 .feature img {
-  width: 50px; /* Uniform icon size */
-  height: auto;
+  width: 50px;
+  height: 50px;
   margin-bottom: 10px;
 }
 
+.feature p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
 .invest-now-btn {
-  background-color: #007BFF; /* Slightly brighter blue */
+  background-color: #D72626;
   color: white;
   border: none;
-  padding: 15px 50px; /* Larger padding for a better button size */
-  font-size: 20px; /* Larger font size */
-  border-radius: 8px; /* Slightly rounded corners */
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.3s;
-  text-transform: uppercase; /* Stylistic choice for button text */
-  display: block; /* Ensures it doesn't inline */
-  margin: 0 auto; /* Centers the button */
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .invest-now-btn:hover {
-  background-color: #0056b3; /* Darker blue on hover for effect */
+  background-color: #BF1E1E;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 30px;
+  }
+  
+  .overlay-content h1 {
+    font-size: 36px;
+  }
+  
+  .overlay-content p {
+    font-size: 16px;
+  }
+  
+  .features-box {
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+  }
 
+  .feature img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .invest-now-btn {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+}
 
 
 /*this section is for the footer*/
@@ -340,6 +419,7 @@ footer {
   background-color: #1A202C;
   padding: 50px 0;
   color: #fff;
+  margin-top: 20px;
 }
 
 .container {

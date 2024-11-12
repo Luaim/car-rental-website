@@ -71,32 +71,45 @@
 
   <!-- Invest your car Section -->
   <section class="invest-your-car">
-    <div class="container">
+    <!-- Title Section Above the Image -->
+    <div class="section-title">
       <h2>Invest Your Car</h2>
-      <h1>Let Your Car Earn for You!</h1>
-      <p>Earn passive income by renting out your vehicle with DOOS. We take care of everything while you enjoy the
-        rewards.</p>
-      <div class="features">
-        <div class="feature">
-          <img src="../assets/No Hassle.png" alt="No Hassle">
-          <p>No Hassle</p>
+      <div class="underline"></div>
+    </div>
+    
+    <!-- Background Image Section with Overlay Content -->
+    <div class="background">
+      <div class="overlay-content">
+        <h1>Let Your Car Earn for You!</h1>
+        <p>Earn passive income by renting out your vehicle with DOOS. We take care of everything while you enjoy the rewards.</p>
+        
+        <!-- Features Box -->
+        <div class="features-box">
+          <div class="feature">
+            <img src="../assets/No Hassle.png" alt="No Hassle">
+            <p>No Hassle</p>
+          </div>
+          <div class="feature">
+            <img src="../assets/Earning.png" alt="Maximized Earning">
+            <p>Maximized Earning</p>
+          </div>
+          <div class="feature">
+            <img src="../assets/Insurance.png" alt="Insurance">
+            <p>Insurance</p>
+          </div>
+          <div class="feature">
+            <img src="../assets/Flexible Plans.png" alt="Flexible Plans">
+            <p>Flexible Plans</p>
+          </div>
         </div>
-        <div class="feature">
-          <img src="../assets/Earning.png" alt="Maximized Earning">
-          <p>Maximized Earning</p>
-        </div>
-        <div class="feature">
-          <img src="../assets/Insurance.png" alt="Insurance">
-          <p>Insurance</p>
-        </div>
-        <div class="feature">
-          <img src="../assets/Flexible Plans.png" alt="Flexible Plans">
-          <p>Flexible Plans</p>
-        </div>
+        
+        <!-- Invest Now Button -->
+        <a href="../Invest_Form_Page/invest_form.HTML" class="invest-now-btn">Invest Now</a>
       </div>
-      <a href="../Invest_Form_Page/invest_form.HTML" class="invest-now-btn">Invest Now</a>
     </div>
   </section>
+  
+  
 
   <!-- Footer Section -->
   <footer>
@@ -159,29 +172,34 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const carousel = document.querySelector('.carousel');
-      let isScrolling = false;
-      let autoScrollInterval;
-
+      let scrollAmount = 0;
+      const scrollStep = 300; // Adjust scroll step to control the scroll distance
+      const scrollIntervalTime = 3000; // Time between auto-scrolls
+  
       function autoScroll() {
-        let step = carousel.offsetWidth / 3;
-        if (carousel.scrollLeft < (carousel.scrollWidth - carousel.offsetWidth)) {
-          carousel.scrollBy({ left: step, behavior: 'smooth' });
+        if (scrollAmount < carousel.scrollWidth - carousel.clientWidth) {
+          carousel.scrollBy({ left: scrollStep, behavior: 'smooth' });
+          scrollAmount += scrollStep;
         } else {
           carousel.scrollTo({ left: 0, behavior: 'smooth' });
+          scrollAmount = 0;
         }
       }
-
-      autoScrollInterval = setInterval(autoScroll, 3000);
-
+  
+      let autoScrollInterval = setInterval(autoScroll, scrollIntervalTime);
+  
+      // Stop auto-scrolling when hovering over the carousel
       carousel.addEventListener('mouseover', function () {
         clearInterval(autoScrollInterval);
       });
-
+  
+      // Resume auto-scrolling when no longer hovering over the carousel
       carousel.addEventListener('mouseout', function () {
-        autoScrollInterval = setInterval(autoScroll, 3000);
+        autoScrollInterval = setInterval(autoScroll, scrollIntervalTime);
       });
     });
   </script>
+  
 </body>
 
 </html>
