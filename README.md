@@ -7,6 +7,7 @@ The DOOS Car Rental website provides an interactive platform where users can:
 Explore and subscribe to various cars with customized plans.
 Invest their cars by listing them on the platform to earn income.
 Contact support through the website or the WhatsApp floating button for assistance.
+
 Features
 Homepage:
 
@@ -29,52 +30,61 @@ Contact details and links to social media, making it easy for customers to conne
 WhatsApp Integration:
 
 Floating button for WhatsApp support accessible on all pages.
+
 Tech Stack
 Frontend: HTML, CSS (with Google Fonts), and JavaScript
 Backend: PHP, connected to a Microsoft SQL Server database
 Database: Microsoft SQL Server for handling car inventory, subscription details, and user data
 Development Environment: XAMPP for local PHP and SQL testing
+
 Getting Started
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/your-username/doos-car-rental.git
+
+
 Database Setup:
 
-Import the SQL script provided in subscription_page.sql to initialize the CarRentalDB database on Microsoft SQL Server.
+Import the SQL script provided in CarRental.sql to initialize the CarRentalDB database on Microsoft SQL Server.
 Configure the serverName in plan.php to match your server setup.
 XAMPP Setup:
 
 Ensure XAMPP is running.
 Place the project in the htdocs folder.
 Access the site on http://localhost/[project-folder].
+
 Project Structure
-plaintext
-Copy code
-├── Main_Page/
-│   ├── main.html
-│   └── main.css
-├── subscription_page/
-│   ├── vechicles.php
-│   ├── plan.css
-│   └── plan.js
-├── FAQ_page/
-│   ├── faq.html
-│   └── faq.css
-├── Invest_Form_Page/
-│   ├── invest_form.html
-│   └── invest_form.css
-├── Contact_Page/
-│   ├── contact.html
-│   └── contact.css
+CAR-RENTAL-WEBSITE/
+├── About_us_Page/
+│   ├── about_us.css
+│   └── about_us.html
 ├── assets/
 │   └── (images and logos)
-├── README.md
-└── SQL/
-    └── subscription_page.sql
+├── Contact_Page/
+│   ├── contact.css
+│   └── contact.html
+├── FAQ_page/
+│   ├── faq.css
+│   └── faq.html
+├── Invest_Form_Page/
+│   ├── invest_form.css
+│   └── invest_form.html
+├── Main_Page/
+│   ├── main.css
+│   └── main.html
+├── subscription_page/
+│   ├── CarRental.sql
+│   ├── plan.css
+│   ├── plan.js
+│   ├── plan.php
+│   ├── TAB.js
+│   ├── vechicles.css
+│   ├── vechicles.js
+│   └── vechicles.php
+└── README.md
+
 Contributors
 Luai Mohammed - LinkedIn
 Ebrahim Khaled - LinkedIn
+
 License
 This project is open-source and available under the MIT License.
