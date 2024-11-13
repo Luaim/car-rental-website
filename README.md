@@ -64,9 +64,10 @@ To get a local copy up and running, follow these simple steps:
    git clone https://github.com/Luaim/car-rental-website.git
 
 2. Navigate to the project directory:
+   ```sh
    cd car-rental-website
 
-3. **Open the project** in your preferred web server environment that supports PHP (such as XAMPP, WAMP, or a live server).
+4. **Open the project** in your preferred web server environment that supports PHP (such as XAMPP, WAMP, or a live server).
 
 ## Contributions
 This project is a collaborative effort between me and Ebrahim:
