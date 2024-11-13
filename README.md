@@ -19,7 +19,6 @@ This repository contains the complete source code for the DOOS Car Rental websit
 
 
 ## Project Structure
-
 ```plaintext
 CAR-RENTAL-WEBSITE
 ├── About_us_Page
@@ -54,6 +53,7 @@ CAR-RENTAL-WEBSITE
 │   ├── vechicles.js
 │   └── vechicles.php
 └── README.md
+````
 
 ## Getting Started
 
