@@ -30,7 +30,7 @@
     <header>
         <div class="navbar">
             <div class="logo">
-                <img src="../assets/Doos logo.png" alt="DOOS Logo" style="margin-right: 20px;">
+                <img src="../" alt="DOOS Logo" style="margin-right: 20px;">
             </div>
             <nav>
                 <ul>
